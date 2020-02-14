@@ -42,7 +42,8 @@ module.exports = {
       "always"
     ],
     "no-console": "off",
-    "@typescript-eslint/no-explicit-any": 0,
+    "no-unused-vars": "off",
+    "no-explicit-any": 0,
   },
   "settings": {
     "import/resolver": "webpack",
