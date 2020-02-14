@@ -1,19 +1,20 @@
 
 import * as React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import routes from 'constants/routes';
 
 const App = () => {
 
   return (
     <Switch>
-      <Route exact={true} path="/">
+      <Route path={routes.LANDING} exact>
         <div>Main page</div>
       </Route>
-      <Route exact={true} path="/authors">
+      <Route path={routes.AUTHORS}>
         <div>Authors page</div>
       </Route>
-      <Route exact={true} path="/author">
-        <div>Author page</div>
+      <Route>
+        <Redirect to={routes.LANDING} />
       </Route>
     </Switch>
   );
