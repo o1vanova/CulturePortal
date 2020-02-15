@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/main.tsx',
@@ -29,13 +30,27 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(css|scss)$/,
+        test: /\.scss$/,
         use: [
+          MiniCssExtractPlugin.loader,
           {
-            loader: MiniCssExtractPlugin.loader
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1
+            }
           },
-          'css-loader',
-          'sass-loader'
+          {
+            loader: 'sass-loader'
+          },
+          {
+            loader: 'sass-resources-loader',
+            options: {
+              resources: [
+                './src/assets/styles/variables.scss',
+                './src/assets/styles/bootscwatch.scss',
+              ]
+            },
+          }
         ]
       },
     ]
@@ -57,5 +72,11 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css'
     }),
+    new CopyWebpackPlugin([
+      {
+        from: './src/assets/images/',
+        to: './images'
+      }
+    ]),
   ]
 };

@@ -11,7 +11,7 @@
     "module": "commonjs",
     "jsx": "react",
 
-    "lib": ["dom", "es2017"],
+    "lib": ["dom", "es6", "es2017"],
 
     "target": "es5",
   },
