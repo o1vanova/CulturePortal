@@ -2,6 +2,7 @@
 import * as React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import routes from 'constants/routes';
+import AuthorBoard from 'pages/author/AuthorBoard';
 
 const App = () => {
 
@@ -11,7 +12,7 @@ const App = () => {
         <div>Main page</div>
       </Route>
       <Route path={routes.AUTHORS}>
-        <div>Authors page</div>
+        <AuthorBoard />
       </Route>
       <Route>
         <Redirect to={routes.LANDING} />
