@@ -2,6 +2,7 @@ import * as React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import App from 'pages/App';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -9,3 +10,4 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+
