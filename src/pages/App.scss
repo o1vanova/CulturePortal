@@ -30,14 +30,32 @@ body {
 }
 
 .row-custom-align {
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-}
+  margin: 0px auto;
 
-.col-wrapper {
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
-  align-items: center;
+  @media  (max-width: 770px) {
+    & {
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 770px) {
+    & {
+      max-width: 520px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    & {
+      max-width: 780px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    & {
+        max-width: 1040px;
+    }
+  }
+ 
 }

@@ -1,18 +1,24 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Card from 'react-bootstrap/Card';
 import './AuthorCard.scss';
-import routes from '../../constants/routes';
 
-const AuthorCard = () => {
+interface Author {
+  imgSrc: string,
+  title: string,
+  description: string
+}
+
+const AuthorCard = (props:any) => {
   return (
-    <a href="#" className="Author-reference">
+    <a href={'authors/' + props.author.id} className="Author-reference">
       <Card className="Authors-card">
-        <Card.Img  variant="top" src="./images/arch.jpg"/>
+        <Card.Img className="Authors-card__photo" variant="top" src={props.author.imgSrc}/>
         <Card.Body>
-          <Card.Title>Юрий Васильевич Шпит</Card.Title>
+          <Card.Title>{props.author.title}</Card.Title>
           <Card.Text>
-            Юрий Шпит родился 9 ноября 1930 года в Запорожье.
+            {props.author.description}
           </Card.Text>
+          <div className="Author-card__text-fade"></div>
         </Card.Body>
       </Card>
     </a>

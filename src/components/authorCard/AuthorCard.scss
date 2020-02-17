@@ -6,17 +6,32 @@
     border: 0px;
     min-width: 250px;
     max-width: 250px; 
-    margin-right: auto;
+    height: 22.5em;
+    overflow: hidden;
     &:hover{
         background: #d9d9d9;
         background-size: cover;
     }
 }
 
-.Authors-card  img{
+.Authors-card__photo {
     height: 12rem;
 }
 
 .Author-reference:hover {
     text-decoration: none;
+}
+
+.Author-card__text-fade{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 3em;
+    border-bottom: .75em solid #fff;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(bottom,#fff 0,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to top,#fff 0,rgba(255,255,255,0) 100%);
 }
