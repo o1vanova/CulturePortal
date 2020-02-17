@@ -6,13 +6,13 @@ const Header = () => {
   return (
     <Navbar bg="light" expand="lg" variant="light">
       <Navbar.Brand href={routes.LANDING}>
-      <img
-        alt=""
-        src="/images/brand.png"
-        width="30"
-        height="30"
-        className="d-inline-block align-top"
-      />{' '}
+        <img
+          alt=""
+          src="/images/brand.png"
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+        />{' '}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -22,11 +22,11 @@ const Header = () => {
           <Nav.Link href={routes.AUTHOR}>Автор</Nav.Link>
         </Nav>
         <Nav className="mr-2">
-            <NavDropdown title="Выберите язык" id="basic-nav-dropdown">
-                <NavDropdown.Item>Русский</NavDropdown.Item>
-                <NavDropdown.Item>Английский</NavDropdown.Item>
-                <NavDropdown.Item>Белорусский</NavDropdown.Item>
-            </NavDropdown>
+          <NavDropdown title="Выберите язык" id="basic-nav-dropdown">
+            <NavDropdown.Item>Русский</NavDropdown.Item>
+            <NavDropdown.Item>Английский</NavDropdown.Item>
+            <NavDropdown.Item>Белорусский</NavDropdown.Item>
+          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

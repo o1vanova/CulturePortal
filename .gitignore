@@ -1,5 +1,8 @@
 # Compiled
 dist/
 
+# Files
+package-lock.json
+
 # Dependency directories
 node_modules/
