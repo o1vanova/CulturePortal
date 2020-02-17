@@ -23,3 +23,21 @@ body {
   color: $gray-100;
   background-color: $body-bg;
 }
+
+.col-without-padding{
+  padding: 0px;
+  flex-grow: 0;
+}
+
+.row-custom-align {
+  justify-content: center;
+  align-items: center;
+}
+
+.col-wrapper {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
