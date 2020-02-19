@@ -1,22 +1,21 @@
 import React, {Fragment} from 'react';
 import Card from 'react-bootstrap/Card';
 import './AuthorCard.scss';
+import Author from '../../model/author';
 
-interface Author {
-  imgSrc: string,
-  title: string,
-  description: string
+export interface AuthorCard {
+  author: Author
 }
 
-const AuthorCard = (props:any) => {
+const AuthorCard = ({author}:AuthorCard) => {
   return (
-    <a href={'authors/' + props.author.id} className="Author-reference">
+    <a href={'authors/' + author.id} className="Author-reference">
       <Card className="Authors-card mb-3">
-        <Card.Img className="Authors-card__photo" variant="top" src={props.author.imgSrc}/>
+        <Card.Img className="Authors-card__photo" src={author.imgSrc}/>
         <Card.Body>
-          <Card.Title>{props.author.title}</Card.Title>
+          <Card.Title>{author.title}</Card.Title>
           <Card.Text>
-            {props.author.description}
+            {author.description}
           </Card.Text>
           <div className="Author-card__text-fade"></div>
         </Card.Body>
