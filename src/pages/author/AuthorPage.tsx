@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {useParams } from 'react-router-dom';
 import BlockAuthorInfo from '../../components/author/blockAuthorInfo/BlockAuthorInfo';
+import BlockAuthorLocation from '../../components/author/blockAuthorLocation/BlockAuthorLocation';
 
 const AuthorPage = () => {
   let {authorId} = useParams();
@@ -16,6 +17,7 @@ const AuthorPage = () => {
     <>
       <BlockAuthorInfo imgSrc={authors[indAuthor].imgSrc} authorName={authors[indAuthor].authorName} 
         authorLive={authors[indAuthor].authorLive} authorDescr={authors[indAuthor].authorDescr} />
+      <BlockAuthorLocation />
     </>
   );
 };
