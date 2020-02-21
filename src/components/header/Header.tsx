@@ -1,11 +1,14 @@
 import React from 'react';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import routes from 'constants/routes';
+import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
   return (
     <Navbar bg="light" expand="lg" variant="light">
-      <Navbar.Brand href={routes.LANDING}>
+      <LinkContainer to={routes.LANDING}>
+      <Navbar.Brand>
         <img
           alt=""
           src="/images/brand.png"
@@ -14,12 +17,19 @@ const Header = () => {
           className="d-inline-block align-top"
         />{' '}
       </Navbar.Brand>
+      </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href={routes.LANDING}>Главная</Nav.Link>
-          <Nav.Link href={routes.AUTHORS}>Авторы</Nav.Link>
-          <Nav.Link href={routes.AUTHOR}>Автор</Nav.Link>
+          <LinkContainer to={routes.LANDING}>
+            <Nav.Link>Главная</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to={routes.AUTHORS}>
+            <Nav.Link>Авторы</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to={routes.AUTHOR}>
+            <Nav.Link>Автор</Nav.Link>
+          </LinkContainer>
         </Nav>
         <Nav className="mr-2">
           <NavDropdown title="Выберите язык" id="basic-nav-dropdown">
