@@ -4,7 +4,7 @@
     "experimentalDecorators": true,
     "strictNullChecks": true,
     "noImplicitReturns": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noImplicitThis": true,
     "allowUnreachableCode": true,
     "allowSyntheticDefaultImports": true,
