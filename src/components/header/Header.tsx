@@ -1,20 +1,14 @@
 import React from 'react';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
-import routes from 'constants/routes';
+import routes from '../../constants/routes';
 import { LinkContainer } from 'react-router-bootstrap';
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
     <Navbar bg="light" expand="lg" variant="light">
       <LinkContainer to={routes.LANDING}>
         <Navbar.Brand>
-          <img
-            alt=""
-            src="/images/brand.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{' '}
+          <img alt="" src="/images/brand.png" width="30" height="30" className="d-inline-block align-top" />{' '}
         </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -43,5 +37,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
