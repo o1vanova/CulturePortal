@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
-import routes from 'constants/routes';
+import routes from '../../constants/routes';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Header = () => {
@@ -28,6 +28,9 @@ const Header = () => {
           </LinkContainer>
           <LinkContainer to={routes.AUTHOR}>
             <Nav.Link>Автор</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to={routes.TEAM}>
+            <Nav.Link>Команда</Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav className="mr-2">
