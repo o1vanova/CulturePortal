@@ -1,10 +1,10 @@
 import React from 'react';
-import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 function BlockAuthorTimeline(props: any): JSX.Element {
   return (
-    <>
+    <VerticalTimeline>
       {props.data.line.map((val: { time: any; toDo: React.ReactNode }, i: string | number | undefined) => (
         <VerticalTimelineElement
           key={i}
@@ -17,7 +17,7 @@ function BlockAuthorTimeline(props: any): JSX.Element {
           <>{val.toDo}</>
         </VerticalTimelineElement>
       ))}
-    </>
+    </VerticalTimeline>
   );
 }
 

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Suspense } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import routes from '../constants/routes';
@@ -11,25 +11,34 @@ import './App.scss';
 
 const App = (): JSX.Element => {
   return (
-    <Fragment>
+    <Suspense fallback="loading...">
       <Header />
       <Container>
         <Switch>
           <Route path={routes.LANDING} exact>
             <MainPage />
           </Route>
-          <Route path={routes.AUTHORS} exact>
+          <Route path={routes.ARCHITECTS} exact>
             <AuthorBoardPage />
           </Route>
-          <Route path={routes.AUTHOR} exact>
+          <Route path={routes.ARCHITECT} exact>
             <AuthorPage />
+          </Route>
+          <Route path={routes.STYLE} exact>
+            <MainPage />
+          </Route>
+          <Route path={routes.WORKLOG} exact>
+            <MainPage />
+          </Route>
+          <Route path={routes.TEAM} exact>
+            <MainPage />
           </Route>
           <Route>
             <Redirect to={routes.LANDING} />
           </Route>
         </Switch>
       </Container>
-    </Fragment>
+    </Suspense>
   );
 };
 
