@@ -1,0 +1,14 @@
+{
+  "menu": {
+    "main": "Main",
+    "architects": "Architects",
+    "style": "Style",
+    "team": "About us",
+    "worklog": "WorkLog",
+    "languages": {
+      "en": "English",
+      "be": "Belorusian",
+      "ru": "Russian"
+    }
+  }
+}

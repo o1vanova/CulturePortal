@@ -1,7 +1,14 @@
 import React from 'react';
 import { Row, Image } from 'react-bootstrap';
 
-function BlockAuthorInfo(props: { imgSrc: React.ReactNode; authorName: React.ReactNode; authorLive: React.ReactNode; authorDescr: React.ReactNode; }) {
+interface BlockAuthorProps {
+  imgSrc: React.ReactNode;
+  authorName: React.ReactNode;
+  authorLive: React.ReactNode;
+  authorDescr: React.ReactNode;
+}
+
+function BlockAuthorInfo(props: BlockAuthorProps): JSX.Element {
   return (
     <>
       <Row style={{ justifyContent: 'center' }}>

@@ -10,10 +10,7 @@ module.exports = {
 
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
-    modules: [
-      path.resolve(__dirname, 'src'),
-      'node_modules',
-    ]
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
 
   output: {
@@ -36,24 +33,21 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              importLoaders: 1
-            }
+              importLoaders: 1,
+            },
           },
           {
-            loader: 'sass-loader'
+            loader: 'sass-loader',
           },
           {
             loader: 'sass-resources-loader',
             options: {
-              resources: [
-                './src/assets/styles/variables.scss',
-                './src/assets/styles/bootscwatch.scss',
-              ]
+              resources: ['./src/assets/styles/variables.scss', './src/assets/styles/bootscwatch.scss'],
             },
-          }
-        ]
+          },
+        ],
       },
-    ]
+    ],
   },
 
   devServer: {
@@ -62,21 +56,25 @@ module.exports = {
     historyApiFallback: true,
     inline: true,
     hot: true,
-    open: true
+    open: true,
   },
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css'
+      filename: '[name].css',
     }),
     new CopyWebpackPlugin([
       {
         from: './src/assets/images/',
-        to: './images'
-      }
+        to: './images',
+      },
+      {
+        from: './src/assets/locales/',
+        to: './locales',
+      },
     ]),
-  ]
+  ],
 };
