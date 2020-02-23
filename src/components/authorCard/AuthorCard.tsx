@@ -10,7 +10,7 @@ interface AuthorCardProps {
 
 const AuthorCard = ({ author }: AuthorCardProps): JSX.Element => {
   return (
-    <Link to={'authors/' + author.id} className="Author-reference">
+    <Link to={'architects/' + author.id} className="Author-reference">
       <Card className="Authors-card mb-3">
         <Card.Img className="Authors-card__photo" src={author.imgSrc} />
         <Card.Body>

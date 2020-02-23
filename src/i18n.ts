@@ -11,11 +11,15 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: lang.EN,
-    debug: true,
+    whitelist: [lang.EN, lang.BE, lang.RU],
 
     interpolation: {
       escapeValue: false,
     },
+    initImmediate: false,
+  })
+  .then((t): void => {
+    t(lang.EN);
   });
 
 export default i18n;

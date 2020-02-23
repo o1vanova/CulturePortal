@@ -25,7 +25,7 @@ const Header = (): JSX.Element => {
   );
 
   return (
-    <Navbar bg="light" fixed="top" expand="lg" variant="light">
+    <Navbar bg="light" expand="lg" variant="light">
       <Navbar.Brand>
         <img alt="logo" src="/images/brand.png" width="30" height="30" className="d-inline-block align-top" />{' '}
       </Navbar.Brand>

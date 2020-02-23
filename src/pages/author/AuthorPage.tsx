@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import BlockAuthorInfo from '../../components/author/blockAuthorInfo/BlockAuthorInfo';
 
 const AuthorPage = (): JSX.Element => {
-  const { authorId } = useParams();
+  const { architectId } = useParams();
   const authors = [
     {
       id: '1',
@@ -20,7 +20,7 @@ const AuthorPage = (): JSX.Element => {
       imgSrc: '../images/author2/photo2.jpg',
     },
   ];
-  const indAuthor = authors.findIndex(item => authorId == item.id);
+  const indAuthor = authors.findIndex(item => architectId == item.id);
 
   return (
     <>
