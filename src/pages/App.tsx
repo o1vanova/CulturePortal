@@ -6,6 +6,7 @@ import Header from '../components/header/Header';
 import MainPage from './home/MainPage';
 import AuthorBoardPage from './board/AuthorBoardPage';
 import AuthorPage from './author/AuthorPage';
+import WorkLog from './worklog/WorkLog';
 
 import './App.scss';
 
@@ -28,7 +29,7 @@ const App = (): JSX.Element => {
             <MainPage />
           </Route>
           <Route path={routes.WORKLOG} exact>
-            <MainPage />
+            <WorkLog />
           </Route>
           <Route path={routes.TEAM} exact>
             <MainPage />
