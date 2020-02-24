@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useState } from 'react';
 import AuthorCard from '../../components/authorCard/AuthorCard';
+import Search from '../../components/search/Search';
+
 
 const AuthorBoardPage = (): JSX.Element => {
 
@@ -11,7 +13,7 @@ const AuthorBoardPage = (): JSX.Element => {
     {
       id: 1,
       imgSrc: './images/arch.jpg',
-      title: 'Юрий Васильевич Шпит',
+      title: 'Юрий',
       description:
         'Юрий Шпит родился 9 ноября 1930 года в Запорожье.Юрий Шпит родился 9 ноября 1930 года в Запорожье.Юрий Шпит родился 9 ноября 1930 года в Запорожье.',
     },
@@ -36,28 +38,35 @@ const AuthorBoardPage = (): JSX.Element => {
     {
       id: 5,
       imgSrc: './images/arch.jpg',
-      title: 'Юрий Васильевич Шпит',
+      title: 'Брий Васильевич Шпит',
       description: 'Юрий Шпит родился 9 ноября 1930 года в Запорожье.',
     },
     {
       id: 6,
       imgSrc: './images/arch.jpg',
-      title: 'Юрий Васильевич Шпит',
+      title: 'Арий Васильевич Шпит',
       description: 'Юрий Шпит родился 9 ноября 1930 года в Запорожье.',
     },
   ]);
+
+  const callback = (search:string) => {
+    setArrAuthor(arrAuthor.filter(Author => {
+      return Author.id == search;
+    }))
+  }
+  console.log(arrAuthor);
   return (
     <Fragment>
-      <div>Search</div>
-      <Container>
-        <Row className="row-custom-align">
-          {arrAuthor.map((x, i) => (
-            <Col className="col-without-padding" key={i}>
-              <AuthorCard author={x}></AuthorCard>
-            </Col>
-          ))}
-        </Row>
-      </Container>
+      <Search sr={callback}/>
+        <Container>
+          <Row className="row-custom-align">
+            {arrAuthor.map((x, i) => (
+              <Col className="col-without-padding" key={i}>
+                <AuthorCard author={x}></AuthorCard>
+              </Col>
+            ))}
+          </Row>
+        </Container>
     </Fragment>
   );
 };
