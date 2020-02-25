@@ -32,7 +32,7 @@ const App = (): JSX.Element => {
             <MainPage />
           </Route>
           <Route path={routes.TEAM} exact>
-            <MainPage />
+            <TeamPage />
           </Route>
           <Route>
             <Redirect to={routes.LANDING} />

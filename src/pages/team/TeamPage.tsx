@@ -1,26 +1,34 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 import MemberCard from '../../components/memberCard/MemberCard';
 
-const TeamPage = () => {
-  const team = [
-    { imageSrc: "./images/arch.jpg", name: "Firs name Last name", linkGithub: "https://github.com/DmitryAstapenko", completedTasks: [ "task1", "task2", "task3", "task4", "task5", "task6" ] },
-    { imageSrc: "./images/brand.png", name: "Firs name Last name", linkGithub: "https://github.com/DmitryAstapenko", completedTasks: [ "task1", "task2", "task3" ] },
-    { imageSrc: "./images/arch.jpg", name: "Firs name Last name", linkGithub: "https://github.com/DmitryAstapenko", completedTasks: [ "task1", "task2", "task3", "task4" ] },
-    { imageSrc: "./images/brand.png", name: "Firs name Last name", linkGithub: "https://github.com/DmitryAstapenko", completedTasks: [ "task1", "task2", "task3", "task4", "task5" ] },
-    { imageSrc: "./images/arch.jpg", name: "Firs name Last name", linkGithub: "https://github.com/DmitryAstapenko", completedTasks: [ "task1", "task2" ] },
-    { imageSrc: "./images/arch.jpg", name: "Firs name Last name", linkGithub: "https://github.com/DmitryAstapenko", completedTasks: [ "task1", "task2", "task3", "task4", "task5" ] },
-  ];
+const TeamPage = (): JSX.Element => {
+  const { t } = useTranslation();  
+  const team = ['olga', 'ildar', 'alex', 'ilya', 'dmitry', 'katya'];
+
   return (
-    <Container>
-      <Row>      
+    <Container>      
+      <Row>
+        <Col>
+          <h2 className="mt-3 text-center">Этот портал создан командой из шести разработчиков</h2>
+        </Col>
+      </Row>            
+      <Row>          
         {team.map( (member, index) => 
-          <Col xl={4} lg={4} md={6} sm={12} xs={12} key={index}> 
+          <Col 
+            key={index}
+            xl={{ span: 4, offset: 0 }} 
+            lg={{ span: 4, offset: 0 }} 
+            md={{ span: 6, offset: 0 }} 
+            sm={{ span: 10, offset: 1 }} 
+            xs={{ span: 10, offset: 1 }}              
+          > 
             <MemberCard               
-              imageSrc={member.imageSrc}
-              name={member.name}
-              linkGithub={member.linkGithub}
-              completedTasks={member.completedTasks}
+              imageSrc={t(`teamPage.members.${member}.imageSrc`)}
+              name={t(`teamPage.members.${member}.name`)}
+              linkGithub={t(`teamPage.members.${member}.linkGithub`)}
+              completedTasks={t(`teamPage.members.${member}.completedTasks`)}  
             />
           </Col>
         )}

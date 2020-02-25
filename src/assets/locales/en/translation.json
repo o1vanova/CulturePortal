@@ -10,5 +10,49 @@
       "be": "Belorusian",
       "ru": "Russian"
     }
+  },
+  "teamPage": {
+    "title": "This portal was created by a team of six developers",
+    "memberCard": {
+      "text": "Сompleted tasks"
+    },
+    "members": {
+      "olga": { 
+        "imageSrc": "./images/team/o1vanova.png", 
+        "name": "Olga Ivanova", 
+        "linkGithub": "https://github.com/o1vanova", 
+        "completedTasks": "The basic structure of the project, photo gallery, translation" 
+      },
+      "ildar": { 
+        "imageSrc": "./images/team/Ildar107.jpg", 
+        "name": "Ildar Garifullin", 
+        "linkGithub": "https://github.com/Ildar107", 
+        "completedTasks": "Authors list page, block of location" 
+      },
+      "alex": { 
+        "imageSrc": "./images/team/stiff-github.png", 
+        "name": "Alexander Katsubo", 
+        "linkGithub": "https://github.com/stiff-github", 
+        "completedTasks": "Page of an author, block biography, block of work list" 
+      },
+      "ilya": { 
+        "imageSrc": "./images/team/IlyaIvanchikov.jpg", 
+        "name": "Ilya Ivanchikov", 
+        "linkGithub": "https://github.com/IlyaIvanchikov", 
+        "completedTasks": "Navigation, block search" 
+      },
+      "dmitry": { 
+        "imageSrc": "./images/team/DmitryAstapenko.png", 
+        "name": "Dmitry Astapenko", 
+        "linkGithub": "https://github.com/DmitryAstapenko", 
+        "completedTasks": "Block architect of the day, page of team" 
+      },
+      "katya": { 
+        "imageSrc": "./images/team/Katunya.jpg", 
+        "name": "Katya Dubtsova", 
+        "linkGithub": "https://github.com/katunya", 
+        "completedTasks": "Main page, page with worklog" 
+      }
+    }
   }
 }
