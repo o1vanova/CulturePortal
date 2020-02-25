@@ -10,5 +10,10 @@
       "be": "Belorusian",
       "ru": "Russian"
     }
-  }
+  },
+  "headers": {
+    "aboutPortal": "About portal",
+    "architectDay": "Architect of the day"
+  },
+  "content": {}
 }
