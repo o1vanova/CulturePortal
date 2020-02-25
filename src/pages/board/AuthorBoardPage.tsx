@@ -5,11 +5,11 @@ import Col from 'react-bootstrap/Col';
 import { useState } from 'react';
 import AuthorCard from '../../components/authorCard/AuthorCard';
 import { Search } from '../../components/search/Search';
-
+import Author from '../../model/author';
 
 const AuthorBoardPage = (): JSX.Element => {
 
-  const [ arrAuthor, setArrAuthor] = useState<any[]>([
+  const [ arrAuthor, setArrAuthor] = useState<Author[]>([
     {
       id: 1,
       imgSrc: './images/arch.jpg',
@@ -46,21 +46,25 @@ const AuthorBoardPage = (): JSX.Element => {
       imgSrc: './images/arch.jpg',
       title: 'Арий Васильевич Шпит',
       description: 'Юрий Шпит родился 9 ноября 1930 года в Запорожье.',
-    },
+    }
   ]);
 
+  const [searchAuthor, setSearchAuthor] = useState<Author[]>(arrAuthor);
+
   const filterHandler = (search: string) => {
-    console.log("string", search);
-  }
+    setSearchAuthor(arrAuthor.filter(author => {
+      return author.title.includes(search);
+    }));
+  };
 
   return (
     <Fragment>
-      <Search 
+      <Search
       dataSearch={filterHandler}
       />
         <Container>
           <Row className="row-custom-align">
-            {arrAuthor.map((x, i) => (
+            {searchAuthor.map((x, i) => (
               <Col className="col-without-padding" key={i}>
                 <AuthorCard author={x}></AuthorCard>
               </Col>
