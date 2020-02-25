@@ -4,12 +4,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useState } from 'react';
 import AuthorCard from '../../components/authorCard/AuthorCard';
-import Search from '../../components/search/Search';
+import { Search } from '../../components/search/Search';
 
 
 const AuthorBoardPage = (): JSX.Element => {
 
-  const [ arrAuthor, setArrAuthor] = useState([
+  const [ arrAuthor, setArrAuthor] = useState<any[]>([
     {
       id: 1,
       imgSrc: './images/arch.jpg',
@@ -49,15 +49,15 @@ const AuthorBoardPage = (): JSX.Element => {
     },
   ]);
 
-  const callback = (search:string) => {
-    setArrAuthor(arrAuthor.filter(Author => {
-      return Author.id == search;
-    }))
+  const filterHandler = (search: string) => {
+    console.log("string", search);
   }
-  console.log(arrAuthor);
+
   return (
     <Fragment>
-      <Search sr={callback}/>
+      <Search 
+      dataSearch={filterHandler}
+      />
         <Container>
           <Row className="row-custom-align">
             {arrAuthor.map((x, i) => (
