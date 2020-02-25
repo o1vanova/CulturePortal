@@ -17,5 +17,35 @@
   },
   "content": {
     "portalDescription": "Throughout its history, the Belarusian people have created a highly developed and original architecture. Preserved information about monuments of monumental, in particular, cult architecture of Belarus (materials about many of them are available in the Belarusian archives) testify to the skill of its creators, demonstrate the distinctive features of architectural and artistic trends and achievements of their era. They also reflect the features of the historical development of the Belarusian lands and speak about the tolerance of the Belarusian people and the diversity of religious denominations that existed simultaneously or at different periods on the territory of Belarus (paganism, Orthodoxy, Uniatism, Catholicism, Protestantism, Islam, Judaism). This portal is dedicated to outstanding architects of the Republic of Belarus."
+  },
+  "data": {
+    "architect1": {
+      "name": "Anikin Viktor Ivanovich",
+      "description": ""
+    },
+    "architect2": {
+      "name": "",
+      "description": ""
+    },
+    "architect3": {
+      "name": "",
+      "description": ""
+    },
+    "architect4": {
+      "name": "",
+      "description": ""
+    },
+    "architect5": {
+      "name": "",
+      "description": ""
+    },
+    "architect6": {
+      "name": "",
+      "description": ""
+    },
+    "architect7": {
+      "name": "Shpit Yuri Vasilyevich",
+      "description": "Yuri Shpit was born on November 9, 1930 in Zaporozhye. In 1954, he graduated from the architectural faculty of the Kiev Institute of civil engineering, after which he left for Minsk and began working in the workshop of the Institute \"Belgosproekt\". During the years of his work at this Institute, he went from senior architect to head of an architectural design workshop. He was the author of a number of typical projects of residential buildings made of silicate blocks that were being built in Minsk. Personally designed the development of the quarter at the intersection of Leninsky Prospekt and Kozlov street, residential and public complexes of buildings on Tolbukhin street, the Partizan cinema, the Yunost hotel, a number of other houses in Minsk, the Victory monument on Victory square in Vitebsk, the Belarus sanatorium in Mishor."
+    }
   }
 }

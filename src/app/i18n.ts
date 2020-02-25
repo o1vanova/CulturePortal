@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-xhr-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Cache from 'i18next-localstorage-cache';
-import lang from './constants/languages';
+import lang from '../constants/languages';
 
 i18n
   .use(Backend)
