@@ -11,48 +11,66 @@
       "ru": "Russian"
     }
   },
-  "teamPage": {
-    "title": "This portal was created by a team of six developers",
-    "memberCard": {
-      "text": "Сompleted tasks"
-    },
-    "members": {
-      "olga": { 
-        "imageSrc": "./images/team/o1vanova.png", 
-        "name": "Olga Ivanova", 
-        "linkGithub": "https://github.com/o1vanova", 
-        "completedTasks": "The basic structure of the project, photo gallery, translation" 
+  "headers": {
+    "aboutPortal": "About portal",
+    "architectDay": "Architect of the day"
+  },
+  "content": {
+    "portalDescription": "Throughout its history, the Belarusian people have created a highly developed and original architecture. Preserved information about monuments of monumental, in particular, cult architecture of Belarus (materials about many of them are available in the Belarusian archives) testify to the skill of its creators, demonstrate the distinctive features of architectural and artistic trends and achievements of their era. They also reflect the features of the historical development of the Belarusian lands and speak about the tolerance of the Belarusian people and the diversity of religious denominations that existed simultaneously or at different periods on the territory of Belarus (paganism, Orthodoxy, Uniatism, Catholicism, Protestantism, Islam, Judaism). This portal is dedicated to outstanding architects of the Republic of Belarus."
+  },
+  "data": {
+    "architect1": {
+      "name": "Anikin Viktor Ivanovich",
+      "cityBirth": "Alatyr",
+      "description": "Soviet architect and teacher who worked in Lithuania in the late 1940s and early 1950s; honored architect of Belarus, corresponding member of the Belarusian Academy of architecture. Author and co-author of more than 120 publications, including the monograph \"urban planning of Belarus\", \"Architecture of Soviet Belarus\", the book \"hero city Minsk\" and \"Brest-hero city\".",
+      "images": {
+        "img1": "Spartak Stadium",
+        "img2": "Pedagogical Institute",
+        "img3": "Apartment building"
       },
-      "ildar": { 
-        "imageSrc": "./images/team/Ildar107.jpg", 
-        "name": "Ildar Garifullin", 
-        "linkGithub": "https://github.com/Ildar107", 
-        "completedTasks": "Architects list page, block of location" 
+      "works": {
+        "work 1": "Spartak Stadium",
+        "work2": "Republican library of the Lithuanian SSR",
+        "work 3": "Development projects of Svetlogorsk microdistricts in the Gomel region (in the author's team)",
+        "work4": "Project of reconstruction of the center of Brest"
       },
-      "alex": { 
-        "imageSrc": "./images/team/stiff-github.png", 
-        "name": "Alexander Katsubo", 
-        "linkGithub": "https://github.com/stiff-github", 
-        "completedTasks": "Page of an architect, block biography, block of work list" 
-      },
-      "ilya": { 
-        "imageSrc": "./images/team/IlyaIvanchikov.jpg", 
-        "name": "Ilya Ivanchikov", 
-        "linkGithub": "https://github.com/IlyaIvanchikov", 
-        "completedTasks": "Navigation, block search" 
-      },
-      "dmitry": { 
-        "imageSrc": "./images/team/DmitryAstapenko.png", 
-        "name": "Dmitry Astapenko", 
-        "linkGithub": "https://github.com/DmitryAstapenko", 
-        "completedTasks": "Block architect of the day, page of team" 
-      },
-      "katya": { 
-        "imageSrc": "./images/team/Katunya.jpg", 
-        "name": "Katya Dubtsova", 
-        "linkGithub": "https://github.com/katunya", 
-        "completedTasks": "Main page, page with worklog" 
+      "timeLines": {
+        "desc1": "Graduated from the architectural faculty of the Leningrad Institute of municipal construction engineers",
+        "desc2": "the Architect moved to Minsk",
+        "desc3": "Candidate of architecture",
+        "desc4": "Head of the Department",
+        "desc5": "Professor"
       }
+    },
+    "architect2": {
+      "name": "Baklanov Mikhail Ivanovich",
+      "cityBirth": "Ivanovka",
+      "description": ""
+    },
+    "architect3": {
+      "name": "Zaborsky Georgy Vladimirovich",
+      "city Birth": "Minsk",
+      "description": ""
+    },
+    "architect4": {
+      "name": "Karako Victor Ivanovich",
+      "city Birth": "Grodno",
+      "description": ""
+    },
+    "architect5": {
+      "name": "Langbard Joseph Grigorievich",
+      "city Birth": "Belsk",
+      "description": ""
+    },
+    "architect6": {
+      "name": "Levin Leonid Mendelevich",
+      "city Birth": "Minsk",
+      "description": ""
+    },
+    "architect7": {
+      "name": "Shpit Yuri Vasilyevich",
+      "cityBirth": "Zaporozhye",
+      "description": "Yuri Shpit was born on November 9, 1930 in Zaporozhye. In 1954, he graduated from the architectural faculty of the Kiev Institute of civil engineering, after which he left for Minsk and began working in the workshop of the Institute \"Belgosproekt\". During the years of his work at this Institute, he went from senior architect to head of an architectural design workshop. He was the author of a number of typical projects of residential buildings made of silicate blocks that were being built in Minsk. Personally designed the development of the quarter at the intersection of Leninsky Prospekt and Kozlov street, residential and public complexes of buildings on Tolbukhin street, the Partizan cinema, the Yunost hotel, a number of other houses in Minsk, the Victory monument on Victory square in Vitebsk, the Belarus sanatorium in Mishor."
     }
   }
 }
