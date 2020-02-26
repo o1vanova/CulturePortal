@@ -68,14 +68,16 @@ import AuthorCard from '../../components/authorCard/AuthorCard';
 import StoreContext from '../../app/store';
 import { Search } from '../../components/search/Search';
 import Author from '../../model/author';
+import { useTranslation } from 'react-i18next';
 
 const AuthorBoardPage = (): JSX.Element => {
-
+  const { t } = useTranslation();
   const { architects } = useContext(StoreContext);
   const [searchAuthor, setSearchAuthor] = useState<Author[]>(architects);
 
   const filterHandler = (search: string, titlePlaceHolder: string) => {
   setSearchAuthor(architects.filter(author => {
+    console.log(author);
         if ( titlePlaceHolder === "Введите Имя")
           return author.name.includes(search);
         else if (titlePlaceHolder === "Введите Город") {
