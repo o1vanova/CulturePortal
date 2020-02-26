@@ -2,10 +2,12 @@ import React, { Suspense, useContext } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import routes from '../constants/routes';
+
 import Header from '../components/header/Header';
-import MainPage from './home/MainPage';
-import AuthorBoardPage from './board/AuthorBoardPage';
-import AuthorPage from './author/AuthorPage';
+import MainPage from '../pages/home/MainPage';
+import AuthorBoardPage from '../pages/board/AuthorBoardPage';
+import AuthorPage from '../pages/author/AuthorPage';
+import TeamPage from '../pages/team/TeamPage';
 import StoreContext from '../app/store';
 
 import './App.scss';
@@ -35,7 +37,7 @@ const App = (): JSX.Element => {
               <MainPage />
             </Route>
             <Route path={routes.TEAM} exact>
-              <MainPage />
+              <TeamPage />
             </Route>
             <Route>
               <Redirect to={routes.LANDING} />
