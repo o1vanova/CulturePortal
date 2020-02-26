@@ -11,7 +11,7 @@ type Author = {
   description: string;
   works: Work[];
   images?: Media[] | null;
-  videos?: Media[] | null;
+  video?: Media | null;
   places?: Place[] | null;
   timeLines?: TimeLine[] | null;
 };
