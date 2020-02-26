@@ -43,23 +43,28 @@
       }
     },
     "architect2": {
-      "name": "",
+      "name": "Бакланаў Міхаіл Іванавіч",
+      "cityBirth": "Іванаўка",
       "description": ""
     },
     "architect3": {
-      "name": "",
+      "name": "Заборскі Георгій Уладзіміравіч",
+      "city Birth": "Мінск",
       "description": ""
     },
     "architect4": {
-      "name": "",
+      "name": "Карако Віктар Іванавіч",
+      "city Birth": "Гродна",
       "description": ""
     },
     "architect5": {
-      "name": "",
+      "name": "Лангбард Іосіф Рыгоравіч",
+      "city Birth": "Бельск",
       "description": ""
     },
     "architect6": {
-      "name": "",
+      "name": "Левін Леанід Мендзялевіч",
+      "city Birth": "Мінск",
       "description": ""
     },
     "architect7": {

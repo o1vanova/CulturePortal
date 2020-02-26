@@ -5,7 +5,7 @@
       "name": "data.architect1.name",
       "cityBirth": "data.architect1.cityBirth",
       "timeLife": "1918 - 1997",
-      "imgSrc": "/images/Architect Viktor Anikin.jpg",
+      "imgSrc": "/images/Anikin.jpg",
       "description": "data.architect1.description",
       "video": {
         "title": "data.architect1.works.work2",
@@ -83,7 +83,7 @@
       "name": "data.architect2.name",
       "cityBirth": "data.architect2.cityBirth",
       "timeLife": "",
-      "imgSrc": "/images/arch.jpg",
+      "imgSrc": "/images/Baklanov.jpg",
       "description": "data.architect2.description",
       "works": [
         {
@@ -97,7 +97,7 @@
       "name": "data.architect3.name",
       "cityBirth": "data.architect3.cityBirth",
       "timeLife": "",
-      "imgSrc": "/images/arch.jpg",
+      "imgSrc": "/images/Zaborsky.jpg",
       "description": "data.architect3.description",
       "works": [
         {
@@ -110,8 +110,8 @@
       "id": 4,
       "name": "data.architect4.name",
       "cityBirth": "data.architect4.cityBirth",
-      "timeLife": "",
-      "imgSrc": "/images/arch.jpg",
+      "timeLife": "1922 - 2008",
+      "imgSrc": "/images/Karako.jpg",
       "description": "data.architect4.description",
       "works": [
         {
@@ -125,7 +125,7 @@
       "name": "data.architect5.name",
       "cityBirth": "data.architect5.cityBirth",
       "timeLife": "",
-      "imgSrc": "/images/arch.jpg",
+      "imgSrc": "/images/Langbard.jpg",
       "description": "data.architect5.description",
       "works": [
         {
@@ -139,7 +139,7 @@
       "name": "data.architect6.name",
       "cityBirth": "data.architect6.cityBirth",
       "timeLife": "",
-      "imgSrc": "/images/arch.jpg",
+      "imgSrc": "/images/Levin.jpg",
       "description": "data.architect6.description",
       "works": [
         {
