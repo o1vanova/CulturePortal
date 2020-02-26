@@ -6,6 +6,7 @@ import TimeLine from './timeline';
 type Author = {
   id: number;
   name: string;
+  cityBirth: string;
   imgSrc: string;
   timeLife: string;
   description: string;

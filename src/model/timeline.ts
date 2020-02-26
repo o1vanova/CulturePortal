@@ -1,7 +1,6 @@
 interface TimeLine {
-  date: string;
-  title: string;
-  url: string;
+  year: string;
+  description: string;
 }
 
 export default TimeLine;

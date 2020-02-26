@@ -3,34 +3,85 @@
     {
       "id": 1,
       "name": "data.architect1.name",
+      "cityBirth": "data.architect1.cityBirth",
       "timeLife": "1918 - 1997",
-      "imgSrc": "/images/arch.jpg",
+      "imgSrc": "/images/Architect Viktor Anikin.jpg",
       "description": "data.architect1.description",
+      "video": {
+        "title": "data.architect1.works.work2",
+        "url": "https://www.youtube.com/watch?v=PSdvVGKuqFg"
+      },
       "works": [
         {
-          "date": "",
-          "description": ""
+          "date": "1950",
+          "description": "data.architect1.works.work1"
+        },
+        {
+          "date": "1953",
+          "description": "data.architect1.works.work2"
+        },
+        {
+          "date": "1965",
+          "description": "data.architect1.works.work3"
+        },
+        {
+          "date": "1968",
+          "description": "data.architect1.works.work4"
         }
       ],
       "images": [
         {
-          "title": "data.architect1.img1",
-          "url":
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/%C5%BDalgiris_Stadium05.JPG/800px-%C5%BDalgiris_Stadium05.JPG"
+          "title": "data.architect1.images.img1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Žalgiris_Stadium05.JPG/800px-Žalgiris_Stadium05.JPG"
         },
         {
-          "title": "data.architect1.img2",
-          "url"
+          "title": "data.architect1.images.img2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/VPU_palace.jpg"
         },
         {
-          "title": "data.architect1.img3",
+          "title": "data.architect1.images.img3",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Vokieciu5_and_7.JPG/800px-Vokieciu5_and_7.JPG"
+        }
+      ],
+      "timeLines": [
+        {
+          "year": "1940",
+          "description": "data.architect1.timeLines.desc1"
+        },
+        {
+          "year": "1958",
+          "description": "data.architect1.timeLines.desc2"
+        },
+        {
+          "year": "1970",
+          "description": "data.architect1.timeLines.desc3"
+        },
+        {
+          "year": "1970",
+          "description": "data.architect1.timeLines.desc4"
+        },
+        {
+          "year": "1984",
+          "description": "data.architect1.timeLines.desc5"
+        }
+      ],
+      "places": [
+        {
+          "lat": "54.69639",
+          "lng": "25.2625",
+          "title": "data.architect1.images.img2"
+        },
+        {
+          "lat": "54.67917",
+          "lng": "25.28417",
+          "title": "data.architect1.images.img3"
         }
       ]
     },
     {
       "id": 2,
       "name": "data.architect2.name",
+      "cityBirth": "data.architect2.cityBirth",
       "timeLife": "",
       "imgSrc": "/images/arch.jpg",
       "description": "data.architect2.description",
@@ -44,6 +95,7 @@
     {
       "id": 3,
       "name": "data.architect3.name",
+      "cityBirth": "data.architect3.cityBirth",
       "timeLife": "",
       "imgSrc": "/images/arch.jpg",
       "description": "data.architect3.description",
@@ -57,6 +109,7 @@
     {
       "id": 4,
       "name": "data.architect4.name",
+      "cityBirth": "data.architect4.cityBirth",
       "timeLife": "",
       "imgSrc": "/images/arch.jpg",
       "description": "data.architect4.description",
@@ -70,6 +123,7 @@
     {
       "id": 5,
       "name": "data.architect5.name",
+      "cityBirth": "data.architect5.cityBirth",
       "timeLife": "",
       "imgSrc": "/images/arch.jpg",
       "description": "data.architect5.description",
@@ -83,6 +137,7 @@
     {
       "id": 6,
       "name": "data.architect6.name",
+      "cityBirth": "data.architect6.cityBirth",
       "timeLife": "",
       "imgSrc": "/images/arch.jpg",
       "description": "data.architect6.description",
@@ -96,6 +151,7 @@
     {
       "id": 7,
       "name": "data.architect7.name",
+      "cityBirth": "data.architect17.cityBirth",
       "timeLife": "1930 - 2010",
       "imgSrc": "/images/arch.jpg",
       "description": "data.architect7.description",
@@ -104,7 +160,8 @@
           "date": "",
           "description": ""
         }
-      ]
+      ],
+      "video": ""
     }
   ]
 }
