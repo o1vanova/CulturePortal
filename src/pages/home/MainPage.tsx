@@ -1,4 +1,5 @@
 import * as React from 'react';
+<<<<<<< HEAD
 import { Card,  Container } from 'react-bootstrap';
 import BlockArchitectDay from '../../components/blockArchitectDay/BlockArchitectDay';
 
@@ -13,6 +14,27 @@ const MainPage = () => {
   return (
     <Container>
       <BlockArchitectDay architect={architect}/>
+=======
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import '../../components/mainPage/mainPages.scss';
+import AboutTheProject from '../../components/mainPage/AboutTheProject';
+import AuthorOfDay from '../../components/mainPage/AuthorOfDay';
+
+const MainPage = (): JSX.Element => {
+  return (
+    <Container>
+      <Row>
+        <Col>
+          <AboutTheProject />
+        </Col>
+        <Col>
+          <AuthorOfDay />
+        </Col>
+      </Row>
+>>>>>>> develop
     </Container>
   );
 };

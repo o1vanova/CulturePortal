@@ -1,5 +1,8 @@
 const LANDING = '/';
-const AUTHORS = '/authors';
-const AUTHOR = '/authors/:authorId';
+const ARCHITECTS = '/architects';
+const ARCHITECT = '/architects/:architectId';
+const TEAM = '/team';
+const STYLE = '/style';
+const WORKLOG = '/worklog';
 
-export default { LANDING, AUTHORS, AUTHOR };
+export default { LANDING, ARCHITECTS, ARCHITECT, TEAM, STYLE, WORKLOG };

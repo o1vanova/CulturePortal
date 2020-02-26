@@ -1,26 +1,26 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "allowUnreachableCode": true,
-    "allowSyntheticDefaultImports": true,
-    "module": "commonjs",
-    "jsx": "react",
-
-    "lib": ["dom", "es6", "es2017"],
-
     "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "./src/**/*"
-  ],
-  "alias": {
-    "pages": "./src/pages",
-    "components": "./src/components",
-    "constants": "./src/constants",
-  }
+  "compileOnSave": false,
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
