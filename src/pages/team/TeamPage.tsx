@@ -11,7 +11,7 @@ const TeamPage = (): JSX.Element => {
     <Container>      
       <Row>
         <Col>
-          <h2 className="mt-3 text-center">Этот портал создан командой из шести разработчиков</h2>
+          <h2 className="mt-3 text-center">{t('teamPage.title')}</h2>
         </Col>
       </Row>            
       <Row>          

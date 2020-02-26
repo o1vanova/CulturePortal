@@ -27,13 +27,13 @@
         "imageSrc": "./images/team/Ildar107.jpg", 
         "name": "Ildar Garifullin", 
         "linkGithub": "https://github.com/Ildar107", 
-        "completedTasks": "Authors list page, block of location" 
+        "completedTasks": "Architects list page, block of location" 
       },
       "alex": { 
         "imageSrc": "./images/team/stiff-github.png", 
         "name": "Alexander Katsubo", 
         "linkGithub": "https://github.com/stiff-github", 
-        "completedTasks": "Page of an author, block biography, block of work list" 
+        "completedTasks": "Page of an architect, block biography, block of work list" 
       },
       "ilya": { 
         "imageSrc": "./images/team/IlyaIvanchikov.jpg", 

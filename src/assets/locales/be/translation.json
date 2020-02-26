@@ -14,44 +14,44 @@
   "teamPage": {
     "title": "Гэты партал створаны камандай з шасці распрацоўшчыкаў",
     "memberCard": {
-      "text": "Сompleted tasks"
+      "text": "Выкананыя задачы"
     },
     "members": {
       "olga": { 
         "imageSrc": "./images/team/o1vanova.png", 
-        "name": "Olga Ivanova", 
+        "name": "Вольга Іванова", 
         "linkGithub": "https://github.com/o1vanova", 
-        "completedTasks": "The basic structure of the project, photo gallery, translation" 
+        "completedTasks": "Базавая структура праекта, фота галерэя, пераклад" 
       },
       "ildar": { 
         "imageSrc": "./images/team/Ildar107.jpg", 
-        "name": "Ildar Garifullin", 
+        "name": "Ільдар Гарыфуллін", 
         "linkGithub": "https://github.com/Ildar107", 
-        "completedTasks": "Authors list page, block of location" 
+        "completedTasks": "Старонка з спісам архітэктараў, блок з картай" 
       },
       "alex": { 
         "imageSrc": "./images/team/stiff-github.png", 
-        "name": "Alexander Katsubo", 
+        "name": "Аляксандр Кацуба", 
         "linkGithub": "https://github.com/stiff-github", 
-        "completedTasks": "Page of an author, block biography, block of work list" 
+        "completedTasks": "Старонка архітэктара, біяграфія архітэктара, спіс работ" 
       },
       "ilya": { 
         "imageSrc": "./images/team/IlyaIvanchikov.jpg", 
-        "name": "Ilya Ivanchikov", 
+        "name": "Ілля Іванчыкаў", 
         "linkGithub": "https://github.com/IlyaIvanchikov", 
-        "completedTasks": "Navigation, block search" 
+        "completedTasks": "Навігацыя па сайце, пошук па архітэктарам" 
       },
       "dmitry": { 
         "imageSrc": "./images/team/DmitryAstapenko.png", 
-        "name": "Dmitry Astapenko", 
+        "name": "Дзмітрый Астапенка", 
         "linkGithub": "https://github.com/DmitryAstapenko", 
-        "completedTasks": "Block architect of the day, page of team" 
+        "completedTasks": "Блок з архітэктарам дня, старонка з камандай" 
       },
       "katya": { 
         "imageSrc": "./images/team/Katunya.jpg", 
-        "name": "Katya Dubtsova", 
+        "name": "Каця Дубцова", 
         "linkGithub": "https://github.com/katunya", 
-        "completedTasks": "Main page, page with worklog" 
+        "completedTasks": "Галоўная старонка, старонка з ворклогам" 
       }
     }
   }
