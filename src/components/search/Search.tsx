@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { DebounceInput } from 'react-debounce-input';
 import { Col, Form } from 'react-bootstrap';
-import checkedSearch from '../../model/checkedSearch';
+import CheckedSearch from '../../model/checkedSearch';
 import './search.scss';
 //import { InputGroup, FormControl } from 'react-bootstrap';
 //import { useTranslation } from 'react-i18next';
@@ -13,22 +13,24 @@ interface dataSearchArr {
 }
 
 export const Search: React.FC<dataSearchArr> = props => {
+  const styleInput = ['inputSearch'];
+  const [ disOn, setDisOn ] = useState<boolean>(true);
   const [ search, setSearch ] = useState<string>('');
   const [ length, setLength ] = useState<number>(0);
   const [ titlePlaceHolder, setTitlePlaceHolder ] = useState<string>('');
-  const [ check, setCheck ] = useState<checkedSearch[]>([
-    { 
-      id: 1, 
+  const [ check, setCheck ] = useState<CheckedSearch[]>([
+    {
+      id: 1,
       title: "Имя",
       checked: false
     },
-    { 
-      id: 2, 
+    {
+      id: 2,
       title: "Город",
       checked: false
     },
-    { 
-      id: 3, 
+    {
+      id: 3,
       title: "День рождения",
       checked: false
     },
@@ -47,6 +49,7 @@ export const Search: React.FC<dataSearchArr> = props => {
     setCheck(check.map(item => {
       if (item.id === id) {
         item.checked = true;
+        setDisOn(false);
         setTitlePlaceHolder(`Введите ${item.title}`);
         setSearch('');
         props.dataSearch('', titlePlaceHolder);
@@ -58,19 +61,23 @@ export const Search: React.FC<dataSearchArr> = props => {
     }))
   };
 
+  if (disOn) {
+    styleInput.push('completed');
+  }
+  console.log(styleInput);
   return (
       <>
       <Col xs={12} sm={12} className="formCheck">
         <Form.Group controlId="formBasicCheckbox" className="row">
           {check.map((item, i) => (
-            <Form.Check 
-              type="checkbox" 
-              className="checkBox" 
-              label={item.title} 
-              checked={item.checked} 
+            <Form.Check
+              type="checkbox"
+              className="checkBox"
+              label={item.title}
+              checked={item.checked}
               key={i}
               onChange={ () => toggleSearch(item.id)}
-               
+
             />
           ))}
         </Form.Group>
@@ -91,14 +98,14 @@ export const Search: React.FC<dataSearchArr> = props => {
         </Col>
         <Col xs={12} sm={8} className="justify-content-center row">
           <DebounceInput
-              className="inputSearch"
+              className={styleInput.join(' ')}
               id="dynamic-label-input"
               placeholder={titlePlaceHolder}
               minLength={length}
               debounceTimeout={300}
               value={search}
-              onChange={changeHandler} 
-              disabled="false"
+              onChange={changeHandler}
+              disabled={disOn}
             />
         </Col>
         </>
