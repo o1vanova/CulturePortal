@@ -38,7 +38,7 @@ const evaluation: Evaluation[] = [
       {
         title: 'Mobile version is okey',
         score: 10,
-        done: true
+        done: true,
       },
       {
         title: ' Ipad/tablet version is okey',
