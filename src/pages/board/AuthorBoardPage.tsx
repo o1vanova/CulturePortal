@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { useState } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import AuthorCard from '../../components/authorCard/AuthorCard';
 import { Search } from '../../components/search/Search';
 import Author from '../../model/author';
@@ -45,23 +43,34 @@ const AuthorBoardPage = (): JSX.Element => {
       id: 6,
       imgSrc: './images/arch.jpg',
       title: 'Арий Васильевич Шпит',
-      description: 'Юрий Шпит родился 9 ноября 1930 года в Запорожье.',
+      description: 'tEST',
     }
   ]);
 
   const [searchAuthor, setSearchAuthor] = useState<Author[]>(arrAuthor);
 
-  const filterHandler = (search: string) => {
+  const filterHandler = (search: string, titlePlaceHolder: string) => {
     setSearchAuthor(arrAuthor.filter(author => {
-      return author.title.includes(search);
+      if ( titlePlaceHolder === "Введите Имя")
+        return author.title.includes(search);
+      else if (titlePlaceHolder === "Введите Город") {
+        return author.description.includes(search);
+      }
+      else {
+        return author.imgSrc.includes(search);
+      }
     }));
   };
 
   return (
     <Fragment>
-      <Search
-      dataSearch={filterHandler}
-      />
+      <Container>
+        <Row className="align-items-center justify-content-center search">
+        <Search
+        dataSearch={filterHandler}   
+        />
+        </Row>
+      </Container>
         <Container>
           <Row className="row-custom-align">
             {searchAuthor.map((x, i) => (
