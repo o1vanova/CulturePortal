@@ -163,5 +163,50 @@
       ],
       "video": ""
     }
+  ],
+  "members": [
+    {
+      "name": "Olga Ivanova", 
+      "avatar": "./images/team/o1vanova.png", 
+      "contribution": "The basic structure of the project, photo gallery, translation", 
+      "github": "https://github.com/o1vanova",
+      "telegram": "https://t.me/helgaI"      
+    },
+    {
+      "name": "Ildar Garifullin", 
+      "avatar": "./images/team/Ildar107.jpg", 
+      "contribution": "Architects list page, block of location", 
+      "github": "https://github.com/Ildar107",
+      "telegram": "https://t.me/Ildar107"      
+    },
+    {
+      "name": "Alexander Katsubo", 
+      "avatar": "./images/team/stiff-github.png", 
+      "contribution": "Page of an architect, block biography, block of work list", 
+      "github": "https://github.com/stiff-github",
+      "telegram": "https://t.me/stiff_imvv"      
+    },
+    {
+      "name": "Ilya Ivanchikov", 
+      "avatar": "./images/team/IlyaIvanchikov.jpg", 
+      "contribution": "Navigation, block search", 
+      "github": "https://github.com/IlyaIvanchikov",
+      "telegram": "https://t.me/Animatooooor"      
+    },
+    { 
+      "name": "Dmitry Astapenko",      
+      "avatar": "./images/team/DmitryAstapenko.png", 
+      "contribution": "Block architect of the day, page of team", 
+      "github": "https://github.com/DmitryAstapenko",
+      "telegram": "https://t.me/DVActapenko",
+      "codewar": "https://www.codewars.com/users/Yrtimd"
+    },
+    {
+      "name": "Katya Dubtsova", 
+      "avatar": "./images/team/Katunya.jpg", 
+      "contribution": "Main page, page with worklog", 
+      "github": "https://github.com/katunya",
+      "telegram": "https://t.me/cdubtsova"      
+    }
   ]
 }

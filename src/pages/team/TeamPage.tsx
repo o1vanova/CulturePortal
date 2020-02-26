@@ -1,35 +1,29 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { useTranslation } from 'react-i18next';
 import MemberCard from '../../components/memberCard/MemberCard';
+import StoreContext from '../../app/store';
 
 const TeamPage = (): JSX.Element => {
-  const { t } = useTranslation();  
-  const team = ['olga', 'ildar', 'alex', 'ilya', 'dmitry', 'katya'];
+  const { members } = useContext(StoreContext);
 
   return (
     <Container>      
       <Row>
         <Col>
-          <h2 className="mt-3 text-center">{t('teamPage.title')}</h2>
+          <h2 className="mt-3 text-center">The portal was made by a team of six developers</h2>
         </Col>
       </Row>            
       <Row>          
-        {team.map( (member, index) => 
+        {members.map( (m, i) => 
           <Col 
-            key={index}
+            key={i}
             xl={{ span: 4, offset: 0 }} 
             lg={{ span: 4, offset: 0 }} 
             md={{ span: 6, offset: 0 }} 
             sm={{ span: 10, offset: 1 }} 
             xs={{ span: 10, offset: 1 }}              
           > 
-            <MemberCard               
-              imageSrc={t(`teamPage.members.${member}.imageSrc`)}
-              name={t(`teamPage.members.${member}.name`)}
-              linkGithub={t(`teamPage.members.${member}.linkGithub`)}
-              completedTasks={t(`teamPage.members.${member}.completedTasks`)}  
-            />
+            <MemberCard member={m}/>
           </Col>
         )}
       </Row>
