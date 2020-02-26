@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import './i18n';
+import './app/i18n';
 import App from './pages/App';
 
 ReactDOM.render(
