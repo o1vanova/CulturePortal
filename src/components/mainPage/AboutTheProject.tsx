@@ -5,10 +5,10 @@ const AboutTheProject = (): JSX.Element => {
   const { t } = useTranslation();
 
   return (
-    <div className="jumbotron-background">
-      <h1 className="display-5">{t('headers.aboutPortal')}</h1>
+    <section className="about">
+      <h2 className="display-5">{t('headers.aboutPortal')}</h2>
       <p className="lead">{t('content.portalDescription')}</p>
-    </div>
+    </section>
   );
 };
 
