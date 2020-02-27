@@ -1,23 +1,46 @@
-import React, { useContext } from 'react';
+import React, { useContext, Fragment } from 'react';
 import { useParams } from 'react-router-dom';
 import BlockAuthorInfo from '../../components/author/blockAuthorInfo/BlockAuthorInfo';
+import BlockAuthorLocation from '../../components/author/blockAuthorLocation/BlockAuthorLocation';
 import StoreContext from '../../app/store';
+import { useTranslation } from 'react-i18next';
+import Gallery from '../../components/gallery/Gallery';
 
 const AuthorPage = (): JSX.Element => {
+  const { t } = useTranslation();
   const { architectId } = useParams();
   const { architects } = useContext(StoreContext);
 
   const architect = architects.find(item => architectId == item.id.toString());
+  if (!architect) {
+    return <p>{t('content.notFound')}</p>;
+  }
 
-  return architect ? (
-    <BlockAuthorInfo
-      imgSrc={architect.imgSrc}
-      authorName={architect.name}
-      authorLive={architect.timeLife}
-      authorDescr={architect.description}
-    />
-  ) : (
-    <></>
+  const GalleryBlock = (): JSX.Element | null => {
+    if (!architect || !architect.images) {
+      return null;
+    }
+    return <Gallery images={architect.images} />;
+  };
+
+  const LocationBlock = (): JSX.Element | null => {
+    if (!architect || !architect.places) {
+      return null;
+    }
+    return <BlockAuthorLocation places={architect.places} />;
+  };
+
+  return (
+    <Fragment>
+      <BlockAuthorInfo
+        imgSrc={architect.imgSrc}
+        authorName={architect.name}
+        authorLive={architect.timeLife}
+        authorDescr={architect.description}
+      />
+      <GalleryBlock />
+      <LocationBlock />
+    </Fragment>
   );
 };
 
