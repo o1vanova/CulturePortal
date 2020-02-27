@@ -21,5 +21,12 @@ _ildar_ (Total: 15h)
 
 | time spent | feature                     |
 | ---------- | --------------------------- |
-| 5h         | add cards for authors page    |
-| 10h         | add map for author page with style and marks |
+| 5h         | add cards for authors page  |
+| 10h        | add map for author page with style and marks |
+
+_IlyaIvanchikov_ (Total: 14h)
+
+| time spent | feature              |
+| ---------- | ---------------------|
+| 4h         | add header component |
+| 10h        | add search component |
