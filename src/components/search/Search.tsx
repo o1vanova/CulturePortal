@@ -5,11 +5,11 @@ import CheckedSearch from '../../model/checkedSearch';
 import './search.scss';
 import { useTranslation } from 'react-i18next';
 
-interface dataSearchArr {
+interface DataSearchArr {
   dataSearch(search: string, id: number): void;
 }
 
-export const Search: React.FC<dataSearchArr> = props => {
+export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
   const { t } = useTranslation();
 
   const styleInput = ['inputSearch'];
