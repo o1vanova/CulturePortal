@@ -1,34 +1,37 @@
 import React, { Fragment } from 'react';
-import Card from 'react-bootstrap/Card';
-import { Button, Row, Col, Image } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Col, Image, Card, Row } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
+import { useTranslation } from 'react-i18next';
+import Author from '../../../model/author';
+import Routes from '../../../constants/routes';
 
-const BlockArchitecOfDay = (props:any) => {
+import './BlockArchitecOfDay.scss';
+
+interface BlockArchitecOfDayProps {
+  architect: Author;
+}
+
+const BlockArchitecOfDay = ({ architect }: BlockArchitecOfDayProps ): JSX.Element => {
+  const { t } = useTranslation();
+  
   return (
-    <Fragment>      
-      <Card bg="light" text="dark" className="m-3" >
-        <Card.Header as="h5" className="text-center">
-          Архитектор дня
-        </Card.Header>
-        <Card.Body>
-          <Row>
-            <Col xl={3} lg={4} md={5}>              
-              <Image 
-                src={props.architect.imageSrc}                 
-                thumbnail 
-              />
-            </Col>
-            <Col xl={9} lg={8} md={7}>
-              <Card.Title className="mt-2">
-                {props.architect.name}
-              </Card.Title>
-              <Card.Text>{props.architect.description}</Card.Text>                        
-              <Button variant="dark">
-                <Link to={`/authors/${props.architect.id}`}>Перейти</Link>
-              </Button>
-            </Col>
-          </Row>          
-        </Card.Body>
+    <Fragment>                  
+      <Card className="bg-none mt-3 mb-3 border-0 rounded-0">                          
+        <Row><Col className="text-center"><h4>{t('headers.architectDay')}</h4></Col></Row>
+        <Row className="mt-2">
+          <Col xl={4} lg={5} md={6} sm={12} xs={12} className="text-center">
+            <LinkContainer to={`${Routes.ARCHITECTS}/${architect.id}`}>
+              <Image className="Architect-image border-0 rounded-0" src={architect.imgSrc} fluid/>
+            </LinkContainer>          
+          </Col >
+          <Col xl={8} lg={7} md={6} sm={12} xs={12}>
+            <Card.Body>
+              <Card.Title>{t(architect.name)}</Card.Title>
+              <Card.Text>{t(architect.cityBirth)}</Card.Text>
+              <Card.Text>{t(architect.description)}</Card.Text>          
+            </Card.Body>
+          </Col>
+        </Row>        
       </Card>      
     </Fragment>
   );

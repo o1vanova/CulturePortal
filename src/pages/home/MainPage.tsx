@@ -1,21 +1,25 @@
-import * as React from 'react';
+import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-import '../../components/mainPage/mainPages.scss';
 import AboutTheProject from '../../components/mainPage/aboutTheProject/AboutTheProject';
-import AuthorOfDay from '../../components/mainPage/AuthorOfDay';
+import ArchitectOfDay from '../../components/mainPage/blockArchitecOfDay/BlockArchitecOfDay';
+import StoreContext from '../../app/store';
 
 const MainPage = (): JSX.Element => {
+  const { architects } = useContext(StoreContext);
+  const randomArchitect = Math.floor(Math.random() * Math.floor(architects.length));
+
   return (
     <Container>
-      <Row>
+      <Row className="mt-4">
         <Col>
           <AboutTheProject />
-        </Col>
+        </Col>        
+      </Row>
+      <Row>
         <Col>
-          <AuthorOfDay />
+          <ArchitectOfDay architect={architects[randomArchitect]} />
         </Col>
       </Row>
     </Container>
