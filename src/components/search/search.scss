@@ -38,6 +38,9 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 
+.labelCheck {
+  margin-right: 5px;
+}
 /* active state */
 input[type=range] {
   -webkit-appearance: none;
@@ -129,7 +132,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .checkBox {
-  margin-right: 30px;
+  margin-right: 5px;
   line-height: 1.3;
 }
 

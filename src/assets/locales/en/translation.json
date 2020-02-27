@@ -18,6 +18,14 @@
   "content": {
     "portalDescription": "Throughout its history, the Belarusian people have created a highly developed and original architecture. Preserved information about monuments of monumental, in particular, cult architecture of Belarus (materials about many of them are available in the Belarusian archives) testify to the skill of its creators, demonstrate the distinctive features of architectural and artistic trends and achievements of their era. They also reflect the features of the historical development of the Belarusian lands and speak about the tolerance of the Belarusian people and the diversity of religious denominations that existed simultaneously or at different periods on the territory of Belarus (paganism, Orthodoxy, Uniatism, Catholicism, Protestantism, Islam, Judaism). This portal is dedicated to outstanding architects of the Republic of Belarus."
   },
+  "search": {
+    "typeSearch": "Select the type of search",
+    "name": "Name",
+    "sity": "Sity",
+    "birthday": "Birthday",
+    "colSymbols": "Number of characters to search",
+    "input": "Input please"
+  },
   "data": {
     "architect1": {
       "name": "Anikin Viktor Ivanovich",
@@ -49,22 +57,22 @@
     },
     "architect3": {
       "name": "Zaborsky Georgy Vladimirovich",
-      "city Birth": "Minsk",
+      "cityBirth": "Minsk",
       "description": ""
     },
     "architect4": {
       "name": "Karako Victor Ivanovich",
-      "city Birth": "Grodno",
+      "cityBirth": "Grodno",
       "description": ""
     },
     "architect5": {
       "name": "Langbard Joseph Grigorievich",
-      "city Birth": "Belsk",
+      "cityBirth": "Belsk",
       "description": ""
     },
     "architect6": {
       "name": "Levin Leonid Mendelevich",
-      "city Birth": "Minsk",
+      "cityBirth": "Minsk",
       "description": ""
     },
     "architect7": {
