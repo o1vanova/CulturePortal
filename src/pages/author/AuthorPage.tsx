@@ -23,6 +23,13 @@ const AuthorPage = (): JSX.Element => {
     return <Gallery images={architect.images} />;
   };
 
+  const LocationBlock = (): JSX.Element | null => {
+    if (!architect || !architect.places) {
+      return null;
+    }
+    return <BlockAuthorLocation places={architect.places} />;
+  };
+
   return (
     <Fragment>
       <BlockAuthorInfo
@@ -32,7 +39,7 @@ const AuthorPage = (): JSX.Element => {
         authorDescr={architect.description}
       />
       <GalleryBlock />
-      <BlockAuthorLocation />
+      <LocationBlock />
     </Fragment>
   );
 };
