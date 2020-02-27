@@ -12,8 +12,8 @@ const TeamPage = (): JSX.Element => {
         <Col>
           <h2 className="mt-3 text-center">The portal was made by a team of six developers</h2>
         </Col>
-      </Row>            
-      <Row>          
+      </Row>                  
+      <Row>
         {members.map( (m, i) => 
           <Col 
             key={i}
@@ -23,7 +23,7 @@ const TeamPage = (): JSX.Element => {
             sm={{ span: 10, offset: 1 }} 
             xs={{ span: 10, offset: 1 }}              
           > 
-            <MemberCard member={m}/>
+            <MemberCard key={i} member={m}/>
           </Col>
         )}
       </Row>
