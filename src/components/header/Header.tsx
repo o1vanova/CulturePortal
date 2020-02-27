@@ -12,9 +12,9 @@ const Header = (): JSX.Element => {
     i18n.changeLanguage(lang);
   };
 
-  const NavLink = ({ children, ...props }: any): JSX.Element => (
-    <LinkContainer {...props}>
-      <Nav.Link active={false}>{children}</Nav.Link>
+  const NavLink = (link: string, text: string): JSX.Element => (
+    <LinkContainer to={link} exact>
+      <Nav.Link eventKey={link}>{t(text)}</Nav.Link>
     </LinkContainer>
   );
 
@@ -32,11 +32,11 @@ const Header = (): JSX.Element => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <NavLink to={routes.LANDING}>{t('menu.main')}</NavLink>
-          <NavLink to={routes.ARCHITECTS}>{t('menu.architects')}</NavLink>
-          <NavLink to={routes.STYLE}>{t('menu.style')}</NavLink>
-          <NavLink to={routes.WORKLOG}>{t('menu.worklog')}</NavLink>
-          <NavLink to={routes.TEAM}>{t('menu.team')}</NavLink>
+          {NavLink(routes.LANDING, 'menu.main')}
+          {NavLink(routes.ARCHITECTS, 'menu.architects')}
+          {NavLink(routes.STYLE, 'menu.style')}
+          {NavLink(routes.WORKLOG, 'menu.worklog')}
+          {NavLink(routes.TEAM, 'menu.team')}
         </Nav>
         <Nav className="mr-2">
           <NavDropdown alignRight title={t(`menu.languages.${i18n.language}`)} id="basic-nav-dropdown">
