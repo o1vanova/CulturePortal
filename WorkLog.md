@@ -16,3 +16,10 @@ _katunya_ (Total: 7h)
 | 3h         | add main page components    |
 | 1h         | add styles to the main page |
 | 3h         | add page and component WorkLog |
+
+_ildar_ (Total: 15h)
+
+| time spent | feature                     |
+| ---------- | --------------------------- |
+| 5h         | add cards for authors page    |
+| 10h         | add map for author page with style and marks |

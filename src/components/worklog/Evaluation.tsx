@@ -6,7 +6,7 @@ const evaluation: Evaluation[] = [
     title: 'Min scope',
     tasks: [
       {
-        title: 'Main page + page with a list of authors + author\'s page (only pages with content without widgets)',
+        title: "Main page + page with a list of authors + author's page (only pages with content without widgets)",
         score: 10,
         done: true,
       },
@@ -46,34 +46,34 @@ const evaluation: Evaluation[] = [
         done: true,
       },
       {
-        title: 'Author\'s page contains timeline',
+        title: "Author's page contains timeline",
         score: 10,
         done: true,
       },
       {
-        title: 'Author\'s page contains video overlay',
+        title: "Author's page contains video overlay",
         score: 10,
         done: true,
       },
       {
-        title: 'Author\'s page contains photo gallery',
+        title: "Author's page contains photo gallery",
         score: 20,
         done: true,
       },
       {
-        title: 'Author\'s page contains map (geowidget)',
+        title: "Author's page contains map (geowidget)",
         score: 10,
         done: true,
       },
       {
         title: 'Design (typography, icons, colors, links + buttons + input are styled)',
         score: 20,
-        done: true
+        done: true,
       },
       {
         title: 'Material-ui / bootstrap is used',
         score: 20,
-        done: true
+        done: true,
       },
       {
         title: 'Portal has third language',
@@ -183,7 +183,7 @@ const Evaluation = () => {
 
     return (
       <section key={index}>
-        <h3>{section.title}</h3>
+        <h4 className="display-6">{section.title}</h4>
         {tasks.element}
       </section>
     );

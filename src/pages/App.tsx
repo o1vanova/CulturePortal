@@ -34,7 +34,7 @@ const App = (): JSX.Element => {
               <MainPage />
             </Route>
             <Route path={routes.WORKLOG} exact>
-            <WorkLog />
+              <WorkLog />
             </Route>
             <Route path={routes.TEAM} exact>
               <TeamPage />
