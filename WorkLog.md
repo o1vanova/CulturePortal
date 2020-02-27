@@ -1,7 +1,6 @@
 # WorkLog of the project
 
 _o1vanova_ (Total: 10h)
->>>>>>> develop
 
 | time spent | feature                                                             |
 | ---------- | ------------------------------------------------------------------- |
