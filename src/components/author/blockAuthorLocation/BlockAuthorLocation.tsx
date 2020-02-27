@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
-import ReactMapGL, { Marker, setRTLTextPlugin } from "react-map-gl";
+import ReactMapGL, { Marker } from "react-map-gl";
 import './BlockAuthorLocation.scss';
 
-type MapState = {
+
+const mapStyleRu = 'mapbox://styles/ildar107/ck74i1rc300lz1imca0ith2f9'
+const mapStyleEn = 'mapbox://styles/ildar107/ck6w6c31f0fah1ipl0crxsqo6'
+
+type PropsType = {}
+
+type StateType = {
     viewport : {
         width: string,
         height: string,
@@ -16,20 +22,20 @@ type MapState = {
     }
 };
 
-class BlockAuthorLocation extends Component<{}, MapState> {
+class BlockAuthorLocation extends Component<PropsType, StateType> {
   constructor(props) {
     super(props);
     this.state = {
       viewport: {
         width: "100%",
         height: "100%",
-        latitude: 53.7098083,
-        longitude: 27.9533882,
-        zoom: 9
+        latitude: 58.7098083,
+        longitude: 25.9533882,
+        zoom: 16
       },
       userLocation: {
-        latitude: 53.7098083,
-        longitude: 27.9533882,
+        latitude: 58.7098083,
+        longitude: 25.9533882,
       }
     };
   }
@@ -40,8 +46,7 @@ class BlockAuthorLocation extends Component<{}, MapState> {
         {...this.state.viewport} 
         onViewportChange={(viewport => this.setState({viewport}))}
         mapboxApiAccessToken='pk.eyJ1IjoiaWxkYXIxMDciLCJhIjoiY2s2dG9la25vMDE3YjNsazNhOWV0NzUyYiJ9.PZ4hkyRPbL0fCc1YURD6wg' 
-        mapStyle='mapbox://styles/ildar107/ck6w6c31f0fah1ipl0crxsqo6'
-        mapboxLanguage ="ru">
+        mapStyle={mapStyleRu}>
         
         <Marker
           latitude={this.state.userLocation.latitude}
