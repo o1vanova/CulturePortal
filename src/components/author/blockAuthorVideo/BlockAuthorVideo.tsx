@@ -8,7 +8,7 @@ function BlockAuthorVideo(props) {
   function handleCloseModal() {
     props.onHide();
   }
-//closeButton
+
   return (
     <Modal
       onHide={handleCloseModal}      
