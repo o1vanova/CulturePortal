@@ -65,13 +65,13 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
   return (
     <>
       <Col xs={12} sm={12} className="formCheck">
-        <Form.Group controlId="formBasicCheckbox" className="row">
+        <Form.Group controlId="formBasicCheckbox" className="row formGroup">
           {check.map((item, i) => (
             <Fragment key={item.id}>
-              <label className="labelCheck">{checkName[i]}</label>
               <Form.Check
-                type="checkbox"
-                className="checkBox"
+                type="switch"
+                id={`custom-switch-${i}`}
+                label={checkName[i]}
                 checked={item.checked}
                 key={item.id}
                 onChange={() => toggleSearch(item.id)}
