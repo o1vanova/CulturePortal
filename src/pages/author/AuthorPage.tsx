@@ -1,10 +1,23 @@
-import React, { useContext, Fragment } from 'react';
+import React, { useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import BlockAuthorInfo from '../../components/author/blockAuthorInfo/BlockAuthorInfo';
 import BlockAuthorLocation from '../../components/author/blockAuthorLocation/BlockAuthorLocation';
 import StoreContext from '../../app/store';
 import { useTranslation } from 'react-i18next';
 import Gallery from '../../components/gallery/Gallery';
+import { Container } from 'react-bootstrap';
+import Author from '../../model/author';
+
+import './AuthorPage.scss';
+
+const getImage = (item: Author): string | null => {
+  const items = item.images;
+  if (!items || items.length === 0) {
+    return null;
+  }
+  const index = Math.floor(Math.random() * items.length);
+  return items[index].url;
+};
 
 const AuthorPage = (): JSX.Element => {
   const { t } = useTranslation();
@@ -30,17 +43,20 @@ const AuthorPage = (): JSX.Element => {
     return <BlockAuthorLocation places={architect.places} />;
   };
 
+  const backSrc = getImage(architect) || architect.imgSrc;
+
   return (
-    <Fragment>
+    <Container>
       <BlockAuthorInfo
         imgSrc={architect.imgSrc}
+        backSrc={backSrc}
         authorName={architect.name}
         authorLive={architect.timeLife}
         authorDescr={architect.description}
       />
       <GalleryBlock />
       <LocationBlock />
-    </Fragment>
+    </Container>
   );
 };
 

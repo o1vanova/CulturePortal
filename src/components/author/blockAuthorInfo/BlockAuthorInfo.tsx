@@ -1,9 +1,12 @@
-import React from 'react';
-import { Row, Image, Container } from 'react-bootstrap';
+import React, { Fragment } from 'react';
+import { Row, Image } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
+
+import './BlockAuthorInfo.scss';
 
 interface BlockAuthorProps {
   imgSrc: string;
+  backSrc: string;
   authorName: string;
   authorLive: string;
   authorDescr: string;
@@ -13,9 +16,10 @@ function BlockAuthorInfo(props: BlockAuthorProps): JSX.Element {
   const { t } = useTranslation();
 
   return (
-    <Container>
-      <Row style={{ justifyContent: 'center' }}>
-        <Image style={{ height: '200px' }} src={props.imgSrc} rounded fluid />
+    <Fragment>
+      <Row className="card__header">
+        <Image className="card__image--left" src={props.imgSrc} />
+        <Image className="card__image--back" src={props.backSrc} fluid />
       </Row>
       <Row style={{ justifyContent: 'center' }}>
         <h1>{t(props.authorName)}</h1>
@@ -24,9 +28,9 @@ function BlockAuthorInfo(props: BlockAuthorProps): JSX.Element {
         <h2>{t(props.authorLive)}</h2>
       </Row>
       <Row style={{ justifyContent: 'center' }}>
-        <h3>{t(props.authorDescr)}</h3>
+        <p>{t(props.authorDescr)}</p>
       </Row>
-    </Container>
+    </Fragment>
   );
 }
 
