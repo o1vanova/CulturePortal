@@ -1,6 +1,6 @@
 # WorkLog of the project
 
-_o1vanova_ (Total: 12h)
+_o1vanova_ (Total: 22h)
 
 | time spent | feature                                                             |
 | ---------- | ------------------------------------------------------------------- |
@@ -8,6 +8,7 @@ _o1vanova_ (Total: 12h)
 | 2h         | translation                                                         |
 | 1h         | fix styles of the main page to display on tablets and mobile phones |
 | 1h         | add gallery                                                         |
+| 10h        | implement store with hooks, put content in json                     |
 | 2h         | add animations, special effects                                     |
 
 _katunya_ (Total: 7h)
@@ -28,6 +29,6 @@ _ildar_ (Total: 15h)
 _IlyaIvanchikov_ (Total: 14h)
 
 | time spent | feature              |
-| ---------- | ---------------------|
+| ---------- | -------------------- |
 | 4h         | add header component |
 | 10h        | add search component |
