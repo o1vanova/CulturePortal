@@ -12,7 +12,7 @@
     }
   },
   "headers": {
-    "aboutPortal": "Аб партале",
+    "aboutPortal": "Культурны партал аб архітэктара Беларусі",
     "architectDay": "Архітэктар дня"
   },
   "content": {
@@ -80,41 +80,41 @@
       "text": "Выкананыя задачы"
     },
     "members": {
-      "olga": { 
-        "imageSrc": "./images/team/o1vanova.png", 
-        "name": "Вольга Іванова", 
-        "linkGithub": "https://github.com/o1vanova", 
-        "completedTasks": "Базавая структура праекта, фота галерэя, пераклад" 
+      "olga": {
+        "imageSrc": "./images/team/o1vanova.png",
+        "name": "Вольга Іванова",
+        "linkGithub": "https://github.com/o1vanova",
+        "completedTasks": "Базавая структура праекта, фота галерэя, пераклад"
       },
-      "ildar": { 
-        "imageSrc": "./images/team/Ildar107.jpg", 
-        "name": "Ільдар Гарыфуллін", 
-        "linkGithub": "https://github.com/Ildar107", 
-        "completedTasks": "Старонка з спісам архітэктараў, блок з картай" 
+      "ildar": {
+        "imageSrc": "./images/team/Ildar107.jpg",
+        "name": "Ільдар Гарыфуллін",
+        "linkGithub": "https://github.com/Ildar107",
+        "completedTasks": "Старонка з спісам архітэктараў, блок з картай"
       },
-      "alex": { 
-        "imageSrc": "./images/team/stiff-github.png", 
-        "name": "Аляксандр Кацуба", 
-        "linkGithub": "https://github.com/stiff-github", 
-        "completedTasks": "Старонка архітэктара, біяграфія архітэктара, спіс работ" 
+      "alex": {
+        "imageSrc": "./images/team/stiff-github.png",
+        "name": "Аляксандр Кацуба",
+        "linkGithub": "https://github.com/stiff-github",
+        "completedTasks": "Старонка архітэктара, біяграфія архітэктара, спіс работ"
       },
-      "ilya": { 
-        "imageSrc": "./images/team/IlyaIvanchikov.jpg", 
-        "name": "Ілля Іванчыкаў", 
-        "linkGithub": "https://github.com/IlyaIvanchikov", 
-        "completedTasks": "Навігацыя па сайце, пошук па архітэктарам" 
+      "ilya": {
+        "imageSrc": "./images/team/IlyaIvanchikov.jpg",
+        "name": "Ілля Іванчыкаў",
+        "linkGithub": "https://github.com/IlyaIvanchikov",
+        "completedTasks": "Навігацыя па сайце, пошук па архітэктарам"
       },
-      "dmitry": { 
-        "imageSrc": "./images/team/DmitryAstapenko.png", 
-        "name": "Дзмітрый Астапенка", 
-        "linkGithub": "https://github.com/DmitryAstapenko", 
-        "completedTasks": "Блок з архітэктарам дня, старонка з камандай" 
+      "dmitry": {
+        "imageSrc": "./images/team/DmitryAstapenko.png",
+        "name": "Дзмітрый Астапенка",
+        "linkGithub": "https://github.com/DmitryAstapenko",
+        "completedTasks": "Блок з архітэктарам дня, старонка з камандай"
       },
-      "katya": { 
-        "imageSrc": "./images/team/Katunya.jpg", 
-        "name": "Каця Дубцова", 
-        "linkGithub": "https://github.com/katunya", 
-        "completedTasks": "Галоўная старонка, старонка з ворклогам" 
+      "katya": {
+        "imageSrc": "./images/team/Katunya.jpg",
+        "name": "Каця Дубцова",
+        "linkGithub": "https://github.com/katunya",
+        "completedTasks": "Галоўная старонка, старонка з ворклогам"
       }
     }
   }

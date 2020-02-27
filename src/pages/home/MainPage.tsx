@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 
 import '../../components/mainPage/mainPages.scss';
 import AboutTheProject from '../../components/mainPage/AboutTheProject';
-import AuthorOfDay from '../../components/mainPage/AuthorOfDay';
 
 const MainPage = (): JSX.Element => {
   return (
@@ -13,9 +12,6 @@ const MainPage = (): JSX.Element => {
       <Row>
         <Col>
           <AboutTheProject />
-        </Col>
-        <Col>
-          <AuthorOfDay />
         </Col>
       </Row>
     </Container>
