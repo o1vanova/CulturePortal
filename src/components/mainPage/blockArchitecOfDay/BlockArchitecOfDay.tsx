@@ -1,9 +1,9 @@
-import React, {Fragment, Component} from 'react';
+import React, { Fragment } from 'react';
 import Card from 'react-bootstrap/Card';
 import { Button, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const BlockArchitecDay = (props:any) => {
+const BlockArchitecOfDay = (props:any) => {
   return (
     <Fragment>      
       <Card bg="light" text="dark" className="m-3" >
@@ -34,4 +34,4 @@ const BlockArchitecDay = (props:any) => {
   );
 };
 
-export default BlockArchitecDay;
+export default BlockArchitecOfDay;
