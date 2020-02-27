@@ -1,7 +1,6 @@
 import React, { useContext, Fragment, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BlockAuthorInfo from '../../components/author/blockAuthorInfo/BlockAuthorInfo';
-import BlockAuthorLocation from '../../components/author/blockAuthorLocation/BlockAuthorLocation';
 import StoreContext from '../../app/store';
 import { useTranslation } from 'react-i18next';
 import Gallery from '../../components/gallery/Gallery';

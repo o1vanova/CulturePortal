@@ -8,7 +8,6 @@
 | katunya | Feb 22 | Feb 22 | 3h | add main page components |
 | katunya | Feb 22 | Feb 22 | 1h | add styles to the main page |
 | katunya | Feb 24 | Feb 24 | 3h | add page and component WorkLog |
-| ildar | Feb 17 | Feb 20 | 5h | add cards for authors page |
-| ildar | Feb 21 | Feb 27 | 10h | add map for author page with style and marks |
 
-Total: 30h
+
+Total: 15h
