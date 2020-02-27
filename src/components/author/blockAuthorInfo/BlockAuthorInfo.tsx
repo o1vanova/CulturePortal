@@ -1,29 +1,32 @@
 import React from 'react';
-import { Row, Image } from 'react-bootstrap';
+import { Row, Image, Container } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 interface BlockAuthorProps {
-  imgSrc: React.ReactNode;
-  authorName: React.ReactNode;
-  authorLive: React.ReactNode;
-  authorDescr: React.ReactNode;
+  imgSrc: string;
+  authorName: string;
+  authorLive: string;
+  authorDescr: string;
 }
 
 function BlockAuthorInfo(props: BlockAuthorProps): JSX.Element {
+  const { t } = useTranslation();
+
   return (
-    <>
+    <Container>
       <Row style={{ justifyContent: 'center' }}>
-        <Image style={{ height: '200px' }} src={String(props.imgSrc)} rounded fluid />
+        <Image style={{ height: '200px' }} src={props.imgSrc} rounded fluid />
       </Row>
       <Row style={{ justifyContent: 'center' }}>
-        <h1>{props.authorName}</h1>
+        <h1>{t(props.authorName)}</h1>
       </Row>
       <Row style={{ justifyContent: 'center' }}>
-        <h2>{props.authorLive}</h2>
+        <h2>{t(props.authorLive)}</h2>
       </Row>
       <Row style={{ justifyContent: 'center' }}>
-        <h3>{props.authorDescr}</h3>
+        <h3>{t(props.authorDescr)}</h3>
       </Row>
-    </>
+    </Container>
   );
 }
 
