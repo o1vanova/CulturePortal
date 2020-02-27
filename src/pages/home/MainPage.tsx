@@ -7,15 +7,15 @@ import '../../components/mainPage/mainPages.scss';
 import AboutTheProject from '../../components/mainPage/AboutTheProject';
 import AuthorOfDay from '../../components/mainPage/AuthorOfDay';
 
-const MainPage = () => {
+const MainPage = (): JSX.Element => {
   return (
     <Container>
-        <Row>
+      <Row>
         <Col>
-          <AboutTheProject/>
+          <AboutTheProject />
         </Col>
-          <Col>
-        <AuthorOfDay/>
+        <Col>
+          <AuthorOfDay />
         </Col>
       </Row>
     </Container>
