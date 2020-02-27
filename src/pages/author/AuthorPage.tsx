@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BlockAuthorInfo from '../../components/author/blockAuthorInfo/BlockAuthorInfo';
 import BlockAuthorLocation from '../../components/author/blockAuthorLocation/BlockAuthorLocation';
@@ -9,6 +9,10 @@ import { Container } from 'react-bootstrap';
 import Author from '../../model/author';
 
 import './AuthorPage.scss';
+import BlockAuthorVideo from '../../components/author/blockAuthorVideo/BlockAuthorVideo';
+import { Row, Button } from 'react-bootstrap';
+import BlockAuthorTimeline from '../../components/author/blockAuthorTimeline/BlockAuthorTimeline';
+import BlockWorkList from '../../components/author/blockWorkList/BlockWorkList';
 
 const getImage = (item: Author): string | null => {
   const items = item.images;
@@ -29,6 +33,20 @@ const AuthorPage = (): JSX.Element => {
     return <p>{t('content.notFound')}</p>;
   }
 
+  const TimeLineBlock = (): JSX.Element | null => {
+    if (!architect || !architect.timeLines) {
+      return null;
+    }
+    return <BlockAuthorTimeline timeLines={architect.timeLines} />;
+  };
+
+  const WorksBlock = (): JSX.Element | null => {
+    if (!architect || !architect.works) {
+      return null;
+    }
+    return <BlockWorkList works={architect.works} />;
+  };
+
   const GalleryBlock = (): JSX.Element | null => {
     if (!architect || !architect.images) {
       return null;
@@ -45,6 +63,11 @@ const AuthorPage = (): JSX.Element => {
 
   const backSrc = getImage(architect) || architect.imgSrc;
 
+  const [isShow, setIsShow] = useState(false);
+  function handleClickVideo() {
+    setIsShow(true);
+  }
+
   return (
     <Container>
       <BlockAuthorInfo
@@ -54,8 +77,33 @@ const AuthorPage = (): JSX.Element => {
         authorLive={architect.timeLife}
         authorDescr={architect.description}
       />
-      <GalleryBlock />
-      <LocationBlock />
+
+      <Row className="mt-5">
+        <TimeLineBlock />
+      </Row>
+
+      <Row className="mt-5">
+        <WorksBlock />
+      </Row>
+
+      <BlockAuthorVideo
+        link={String(architect.video?.url).replace('watch?v=', 'embed/')}
+        show={isShow}
+        onHide={() => setIsShow(false)}
+      />
+      <Row className="justify-content-center mt-5">
+        <Button variant="secondary" onClick={handleClickVideo} size="lg">
+          Смотреть видео
+        </Button>
+      </Row>
+
+      <Row className="overflow-hidden mt-5">
+        <LocationBlock />
+      </Row>
+
+      <Row className="mt-5 mb-5">
+        <GalleryBlock />
+      </Row>
     </Container>
   );
 };

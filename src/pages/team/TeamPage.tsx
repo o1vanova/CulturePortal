@@ -23,7 +23,7 @@ const TeamPage = (): JSX.Element => {
             sm={{ span: 10, offset: 1 }}
             xs={{ span: 10, offset: 1 }}
           >
-            <MemberCard member={m} />
+            <MemberCard key={i} member={m} />
           </Col>
         ))}
       </Row>
