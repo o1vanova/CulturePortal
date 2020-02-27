@@ -1,16 +1,11 @@
-section {
-  margin: 20px;
+@import "../../assets/styles/variables.scss";
+
+.jumbotron-mainPage {
+  background-color: $dark;
+  margin: 15px;
+  padding: 20px;
 }
 
-.architect-of-the-day .architect-photo {
-  margin: 5px 15px 15px 0;
-}
-
-
-.architect-of-the-day a {
-   color: #ffffff;
- }
-
-.container h2 {
-  color:  #82b1ff;
+.jumbotron-mainPage h1 {
+  text-align: center;
 }
