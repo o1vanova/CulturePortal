@@ -10,7 +10,7 @@ interface ContextProps {
 
 const StoreContext = createContext({
   architects: data.architects,
-  members: [],
+  members: data.members,
 } as ContextProps);
 
 export default StoreContext;

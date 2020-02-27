@@ -1,16 +1,18 @@
 # WorkLog of the project
 
-_o1vanova_ (Total: 9h)
+_o1vanova_ (Total: 10h)
 
 | time spent | feature                                                             |
 | ---------- | ------------------------------------------------------------------- |
 | 6h         | base structure of the project                                       |
 | 2h         | translation                                                         |
 | 1h         | fix styles of the main page to display on tablets and mobile phones |
+| 1h         | add gallery                                                         |
 
-_katunya_ (Total: 4h)
+_katunya_ (Total: 7h)
 
 | time spent | feature                     |
 | ---------- | --------------------------- |
 | 3h         | add main page components    |
 | 1h         | add styles to the main page |
+| 3h         | add page and component WorkLog |

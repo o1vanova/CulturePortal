@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Image } from 'react-bootstrap';
+import { Row, Image, Container } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 
 interface BlockAuthorProps {
@@ -13,7 +13,7 @@ function BlockAuthorInfo(props: BlockAuthorProps): JSX.Element {
   const { t } = useTranslation();
 
   return (
-    <>
+    <Container>
       <Row style={{ justifyContent: 'center' }}>
         <Image style={{ height: '200px' }} src={props.imgSrc} rounded fluid />
       </Row>
@@ -26,7 +26,7 @@ function BlockAuthorInfo(props: BlockAuthorProps): JSX.Element {
       <Row style={{ justifyContent: 'center' }}>
         <h3>{t(props.authorDescr)}</h3>
       </Row>
-    </>
+    </Container>
   );
 }
 
