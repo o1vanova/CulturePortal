@@ -3,9 +3,7 @@ import { DebounceInput } from 'react-debounce-input';
 import { Col, Form } from 'react-bootstrap';
 import CheckedSearch from '../../model/checkedSearch';
 import './search.scss';
-//import { InputGroup, FormControl } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-//import lang from '../../constants/languages';
 
 
 interface dataSearchArr {
@@ -14,7 +12,7 @@ interface dataSearchArr {
 
 export const Search: React.FC<dataSearchArr> = props => {
   const { t } = useTranslation();
-  
+
   const styleInput = ['inputSearch'];
   const [ disOn, setDisOn ] = useState<boolean>(true);
   const [ search, setSearch ] = useState<string>('');

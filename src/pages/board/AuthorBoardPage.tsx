@@ -16,8 +16,8 @@ const AuthorBoardPage = (): JSX.Element => {
   const filterHandler = (search: string, id: number) => {
     console.log(id);
   setSearchAuthor(architects.filter(author => {
-        let name = t(author.name).toLowerCase();
-        let cityBirth = t(author.cityBirth).toLowerCase();
+        const name = t(author.name).toLowerCase();
+        const cityBirth = t(author.cityBirth).toLowerCase();
         if (id === 1)
           return name.includes(search);
         else if (id === 2) {
@@ -35,7 +35,7 @@ const AuthorBoardPage = (): JSX.Element => {
       <Container>
         <Row className="align-items-center justify-content-center search">
         <Search
-        dataSearch={filterHandler} 
+        dataSearch={filterHandler}
         />
         </Row>
       </Container>

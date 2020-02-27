@@ -1,9 +1,10 @@
 # CulturePortal
+
 This web app is a culture portal about architects of Belarus.<br>
 
 ## Demo
 
-Deploy of the project is located <strong>[here](https://example.com/)</strong>
+Deploy of the project is located <strong>[here](https://react-culture-portal.netlify.com//)</strong>
 <br>
 
 ## Available Scripts
