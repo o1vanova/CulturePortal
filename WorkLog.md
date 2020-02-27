@@ -1,13 +1,25 @@
 # WorkLog of the project
 
-| Author  | Start time  | End time | time spent | feature |
-|-----------|-----------|-------------|-------------|-------------|
-| o1vanova | Feb 14 | Feb 15 | 6h | base structure of the project |
-| o1vanova | Feb 23 | Feb 23 | 2h | translation |
-| o1vanova | Feb 24 | Feb 24 | 1h | add gallery |
-| katunya | Feb 22 | Feb 22 | 3h | add main page components |
-| katunya | Feb 22 | Feb 22 | 1h | add styles to the main page |
-| katunya | Feb 24 | Feb 24 | 3h | add page and component WorkLog |
+_o1vanova_ (Total: 10h)
 
+| time spent | feature                                                             |
+| ---------- | ------------------------------------------------------------------- |
+| 6h         | base structure of the project                                       |
+| 2h         | translation                                                         |
+| 1h         | fix styles of the main page to display on tablets and mobile phones |
+| 1h         | add gallery                                                         |
 
-Total: 15h
+_katunya_ (Total: 7h)
+
+| time spent | feature                     |
+| ---------- | --------------------------- |
+| 3h         | add main page components    |
+| 1h         | add styles to the main page |
+| 3h         | add page and component WorkLog |
+
+_ildar_ (Total: 15h)
+
+| time spent | feature                     |
+| ---------- | --------------------------- |
+| 5h         | add cards for authors page    |
+| 10h         | add map for author page with style and marks |
