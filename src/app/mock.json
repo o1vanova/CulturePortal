@@ -99,10 +99,6 @@
       "timeLife": "",
       "imgSrc": "/images/Zaborsky.jpg",
       "description": "data.architect3.description",
-      "video": {
-        "title": "",
-        "url": "https://www.youtube.com/watch?v=MqltS2dlhR4"
-      },
       "works": [
         {
           "date": "",
@@ -131,10 +127,6 @@
       "timeLife": "",
       "imgSrc": "/images/Langbard.jpg",
       "description": "data.architect5.description",
-      "video": {
-        "title": "",
-        "url": "https://www.youtube.com/watch?v=dlQIlW3V-iU"
-      },
       "works": [
         {
           "date": "",
@@ -149,10 +141,6 @@
       "timeLife": "",
       "imgSrc": "/images/Levin.jpg",
       "description": "data.architect6.description",
-      "video": {
-        "title": "",
-        "url": "https://www.youtube.com/watch?v=3QJXk6dIpKQ"
-      },
       "works": [
         {
           "date": "",
@@ -165,7 +153,7 @@
       "name": "data.architect7.name",
       "cityBirth": "data.architect17.cityBirth",
       "timeLife": "1930 - 2010",
-      "imgSrc": "/images/Shpit.jpg",
+      "imgSrc": "/images/arch.jpg",
       "description": "data.architect7.description",
       "works": [
         {
@@ -178,47 +166,47 @@
   ],
   "members": [
     {
-      "name": "Olga Ivanova",
-      "avatar": "./images/team/o1vanova.png",
-      "contribution": "The basic structure of the project, photo gallery, translation",
+      "name": "Olga Ivanova", 
+      "avatar": "./images/team/o1vanova.png", 
+      "contribution": "The basic structure of the project, photo gallery, translation", 
       "github": "https://github.com/o1vanova",
-      "telegram": "https://t.me/helgaI"
+      "telegram": "https://t.me/helgaI"      
     },
     {
-      "name": "Ildar Garifullin",
-      "avatar": "./images/team/Ildar107.jpg",
-      "contribution": "Architects list page, block of location",
+      "name": "Ildar Garifullin", 
+      "avatar": "./images/team/Ildar107.jpg", 
+      "contribution": "Architects list page, block of location", 
       "github": "https://github.com/Ildar107",
-      "telegram": "https://t.me/Ildar107"
+      "telegram": "https://t.me/Ildar107"      
     },
     {
-      "name": "Alexander Katsubo",
-      "avatar": "./images/team/stiff-github.png",
-      "contribution": "Page of an architect, block biography, block of work list",
+      "name": "Alexander Katsubo", 
+      "avatar": "./images/team/stiff-github.png", 
+      "contribution": "Page of an architect, block biography, block of work list", 
       "github": "https://github.com/stiff-github",
-      "telegram": "https://t.me/stiff_imvv"
+      "telegram": "https://t.me/stiff_imvv"      
     },
     {
-      "name": "Ilya Ivanchikov",
-      "avatar": "./images/team/IlyaIvanchikov.jpg",
-      "contribution": "Navigation, block search",
+      "name": "Ilya Ivanchikov", 
+      "avatar": "./images/team/IlyaIvanchikov.jpg", 
+      "contribution": "Navigation, block search", 
       "github": "https://github.com/IlyaIvanchikov",
-      "telegram": "https://t.me/Animatooooor"
+      "telegram": "https://t.me/Animatooooor"      
     },
-    {
-      "name": "Dmitry Astapenko",
-      "avatar": "./images/team/DmitryAstapenko.png",
-      "contribution": "Block architect of the day, page of team",
+    { 
+      "name": "Dmitry Astapenko",      
+      "avatar": "./images/team/DmitryAstapenko.png", 
+      "contribution": "Block architect of the day, page of team", 
       "github": "https://github.com/DmitryAstapenko",
       "telegram": "https://t.me/DVActapenko",
       "codewar": "https://www.codewars.com/users/Yrtimd"
     },
     {
-      "name": "Katya Dubtsova",
-      "avatar": "./images/team/Katunya.jpg",
-      "contribution": "Main page, page with worklog",
+      "name": "Katya Dubtsova", 
+      "avatar": "./images/team/Katunya.jpg", 
+      "contribution": "Main page, page with worklog", 
       "github": "https://github.com/katunya",
-      "telegram": "https://t.me/cdubtsova"
+      "telegram": "https://t.me/cdubtsova"      
     }
   ]
 }

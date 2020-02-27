@@ -15,39 +15,21 @@ export const TaskModel = [
   },
   {
     id: 3,
-    student: 'Olga Ivanova',
-    task: 'add gallery',
-    time: '1 hours',
-  },
-  {
-    id: 4,
     student: 'Katya Dubtsova',
     task: 'add main page components',
     time: '3 hours',
   },
   {
-    id: 5,
+    id: 4,
     student: 'Katya Dubtsova',
     task: 'add styles to the main page',
     time: '1 hours',
   },
   {
-    id: 6,
+    id: 5,
     student: 'Katya Dubtsova',
     task: 'add page and component WorkLog',
     time: '5 hours',
-  },
-  {
-    id: 7,
-    student: 'Ildar Garifullin',
-    task: 'add cards for authors page',
-    time: '5 hours',
-  },
-  {
-    id: 8,
-    student: 'Ildar Garifullin',
-    task: 'add map for author page with style and marks',
-    time: '10 hours',
   },
 ];
 
