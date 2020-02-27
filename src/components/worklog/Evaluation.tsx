@@ -183,7 +183,7 @@ const Evaluation = () => {
 
     return (
       <section key={index}>
-        <h3>{section.title}</h3>
+        <h4 className="display-6">{section.title}</h4>
         {tasks.element}
       </section>
     );

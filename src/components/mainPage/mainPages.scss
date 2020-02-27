@@ -1,11 +1,15 @@
 @import "../../assets/styles/variables.scss";
 
-.jumbotron-mainPage {
+.jumbotron-background {
   background-color: $dark;
   margin: 15px;
   padding: 20px;
 }
 
-.jumbotron-mainPage h1 {
+.jumbotron-background h1 {
   text-align: center;
+}
+
+.dislay-worklog {
+  margin: 30px;
 }
