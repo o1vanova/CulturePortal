@@ -2,13 +2,12 @@
     min-width: 250px;
     max-width: 250px;
     height: 25.5em;
-    margin: 5px 5px;
+    margin: 5px;
     overflow: hidden;
     background-color: #4E5D6C;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0px;
-    font-family: "Lato", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -34,6 +33,7 @@
 .Authors-card__photo {
     border-radius: 0px;
     height: 13rem;
+    min-height: 13rem;
     object-fit: cover;
 }
 
