@@ -2,6 +2,9 @@ import React, { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
 import StoreContext from '../../app/store';
 import Author from '../../model/author';
+import { Link } from 'react-router-dom';
+import routes from '../../constants/routes';
+import { Container, Image } from 'react-bootstrap';
 
 const AuthorOfDay = (): JSX.Element => {
   const { t } = useTranslation();
@@ -15,16 +18,14 @@ const AuthorOfDay = (): JSX.Element => {
   const architect = architects.find((item: Author) => dayOfWeek() == item.id);
 
   return architect ? (
-    <section className="architect-of-the-day">
+    <Container className="architect-day">
       <h2>{t('headers.architectDay')}</h2>
-      <a href="#">
+      <Link to={`${routes.ARCHITECTS}/${architect.id}`}>
         <h4>{t(architect.name)}</h4>
-      </a>
-      <a href="#">
-        <img src={architect.imgSrc} alt="photo" className="architect-photo" />
-      </a>
+      </Link>
+      <Image src={architect.imgSrc} alt="photo" className="architect-photo" />
       <p>{t(architect.description)}</p>
-    </section>
+    </Container>
   ) : (
     <></>
   );
