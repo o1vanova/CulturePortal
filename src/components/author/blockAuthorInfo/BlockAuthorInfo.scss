@@ -1,0 +1,26 @@
+.card {
+  &__header {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__image {
+    &--left {
+      height: 100%;
+      position: absolute;
+      left: 0;
+      z-index: 2;
+    }
+    &--back {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: 2s ease;
+
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
+}

@@ -163,7 +163,7 @@
     {
       "id": 7,
       "name": "data.architect7.name",
-      "cityBirth": "data.architect17.cityBirth",
+      "cityBirth": "data.architect7.cityBirth",
       "timeLife": "1930 - 2010",
       "imgSrc": "/images/Shpit.jpg",
       "description": "data.architect7.description",
@@ -182,7 +182,8 @@
       "avatar": "./images/team/o1vanova.png",
       "contribution": "The basic structure of the project, photo gallery, translation",
       "github": "https://github.com/o1vanova",
-      "telegram": "https://t.me/helgaI"
+      "telegram": "https://t.me/helgaI",
+      "codewar": "https://www.codewars.com/users/o1vanova"
     },
     {
       "name": "Ildar Garifullin",

@@ -1,17 +1,44 @@
-import React, { Fragment, useContext } from 'react';
+import React, { Fragment, useContext, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import AuthorCard from '../../components/authorCard/AuthorCard';
 import StoreContext from '../../app/store';
+import { Search } from '../../components/search/Search';
+import Author from '../../model/author';
+import { useTranslation } from 'react-i18next';
 
 const AuthorBoardPage = (): JSX.Element => {
+  const { t } = useTranslation();
+
   const { architects } = useContext(StoreContext);
+  const [searchAuthor, setSearchAuthor] = useState<Author[]>(architects);
+
+  const filterHandler = (search: string, id: number) => {
+    console.log(id);
+    setSearchAuthor(
+      architects.filter(author => {
+        const name = t(author.name).toLowerCase();
+        const cityBirth = t(author.cityBirth).toLowerCase();
+        if (id === 1) return name.includes(search);
+        else if (id === 2) {
+          return cityBirth.includes(search);
+        } else {
+          return author.timeLife.includes(search);
+        }
+      }),
+    );
+  };
 
   return (
     <Fragment>
-      <div>Search</div>
+      <h2 className="text-center text-info">{t('search.typeSearch')}</h2>
+      <Container>
+        <Row className="align-items-center justify-content-center search">
+          <Search dataSearch={filterHandler} />
+        </Row>
+      </Container>
       <Container>
         <Row className="row-custom-align">
-          {architects.map((x, i) => (
+          {searchAuthor.map((x, i) => (
             <Col className="col-without-padding" key={i}>
               <AuthorCard author={x}></AuthorCard>
             </Col>
