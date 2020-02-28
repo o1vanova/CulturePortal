@@ -1,7 +1,7 @@
 interface Place {
   lat: string;
   lng: string;
-  title?: string | null;
+  title: string;
 }
 
 export default Place;

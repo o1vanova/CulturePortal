@@ -1,12 +1,13 @@
 import * as React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './app/i18n';
 import App from './pages/App';
+import routes from './constants/routes';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter basename={routes.LANDING}>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root'),
 );

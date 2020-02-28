@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
-import { Colors } from '../../components/style/colors/colors';
-// import { Buttons } from '../../components/style/buttons/colors';
+import { Container, Row, Col } from 'react-bootstrap';
+//import { Colors } from '../../components/style/colors/colors';
+import { Buttons } from '../../components/style/buttons/buttons';
 // import { Checkboxs } from '../../components/style/checkbox/checkbox';
 // import { Inputs } from '../../components/style/inputs/inputs';
 import './StyleGuide.scss';
@@ -16,7 +16,7 @@ const StylePage = (): JSX.Element => {
       <Row>
         <Col>
           <Wrapper title="Button" code="<></>">
-            <Colors />
+            <Buttons />
           </Wrapper>
         </Col>
       </Row>
