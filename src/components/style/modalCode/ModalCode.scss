@@ -1,0 +1,31 @@
+.modal-code-icon {  
+  color: #df691a;
+  &:hover {
+    color: #9f5a2d;  
+  }
+}
+
+.modal-header {
+  background-color: rgba(255, 255, 255, 0.075);
+  text-align: right;    
+  display: inline;  
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);  
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: #EBEBEB;
+}
+
+.modal-content { 
+  background-color: #fff;  
+  background-color: #4E5D6C;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+  color: #EBEBEB;  
+}
+
+.modal-body {
+  background-color: black;
+  padding: 1rem;
+  margin: 1rem;
+}

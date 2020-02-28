@@ -1,21 +1,27 @@
-import React, { Fragment } from 'react';
+import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { GoCode } from "react-icons/go";
+import { GoCode } from 'react-icons/go';
+import ModalCode from '../modalCode/ModalCode'
 import './Wrapper.scss'
 
-const Wrapper = (props: { title: string; code: string; children: React.ReactNode; }): JSX.Element => {
-  return (
-    <Fragment>
-      <Row className="mt-1">
+const Wrapper = (props: { title: string; codeExample: string; children: React.ReactNode; }): JSX.Element => {
+  const [modalShow, setModalShow] = useState(false);
+  const handleClose = () => setModalShow(false);
+  const handleShow = () => setModalShow(true);
+
+  return (    
+    <div className="wrapper mt-2 mb-2 pl-3 pr-3 pt-2 pb-2">
+      <Row>
         <Col><h2>{props.title}</h2></Col>
         <Col className="text-right text-top">
-          <GoCode className="wrapper-icon" size={40}/>
+          <GoCode onClick={handleShow} className="wrapper-icon" size={40}/>
         </Col>
       </Row>
-      <Row className="mb-1">
+      <Row>
         <Col>{props.children}</Col>
       </Row>
-    </Fragment>      
+      <ModalCode show={modalShow} onHide={handleClose} codeExample={props.codeExample}/>
+    </div>
   );
 };
 

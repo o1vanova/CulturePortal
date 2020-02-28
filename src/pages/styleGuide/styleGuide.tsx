@@ -10,7 +10,7 @@ const StylePage = (): JSX.Element => {
       <h2 className="mt-3 text-center">Our styleGuide</h2>        
       <Row>
         <Col>
-          <Wrapper title="Button" code="<></>">
+          <Wrapper title="Button" codeExample='<></>'>
             <Colors />
           </Wrapper>            
         </Col>
