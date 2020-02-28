@@ -1,7 +1,22 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
+import Work from '../../../model/work';
+import { useTranslation } from 'react-i18next';
 
-function BlockWorkList(props: any) {
+interface WorksProps {
+  works: Work[];
+}
+
+function BlockWorkList(props: WorksProps): JSX.Element {
+  const { t } = useTranslation();
+
+  const mappedItems = props.works.map((val: Work) => {
+    return {
+      date: val.date,
+      description: t(val.description),
+    };
+  });
+
   return (
     <>
       <Table className="table table-hover" striped bordered hover variant="secondary">
@@ -12,9 +27,9 @@ function BlockWorkList(props: any) {
           </tr>
         </thead>
         <tbody>
-          {props.data.work.map((val: { title: any; date: React.ReactNode }, i: string | number | undefined) => (
+          {mappedItems.map((val: { description: any; date: React.ReactNode }, i: string | number | undefined) => (
             <tr key={i}>
-              <td>{val.title}</td>
+              <td>{val.description}</td>
               <td>{val.date}</td>
             </tr>
           ))}
