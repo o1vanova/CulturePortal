@@ -26,12 +26,13 @@ _ildar_ (Total: 15h)
 | 5h         | add cards for authors page                   |
 | 10h        | add map for author page with style and marks |
 
-_IlyaIvanchikov_ (Total: 14h)
+_IlyaIvanchikov_ (Total: 16h)
 
 | time spent | feature              |
 | ---------- | -------------------- |
 | 4h         | add header component |
 | 10h        | add search component |
+| 2h         | add styleGuide page 1/2 |
 
 _stiff-github_ (Total: 17h)
 

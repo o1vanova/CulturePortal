@@ -1,9 +1,13 @@
-import * as React from 'react';
-import { Jumbotron, Button } from 'react-bootstrap';
-import './colors.scss';
+import React from 'react';
+import { Button, ButtonToolbar } from 'react-bootstrap';
+import './Buttons.scss';
 
 export const Buttons = (): JSX.Element => {
     return (
-          <h1>Colors</h1>
+      <ButtonToolbar>
+        <Button variant="secondary" size="sm">Secondary</Button>
+        <Button variant="secondary">Secondary</Button>
+        <Button variant="secondary" size="lg">Secondary</Button>
+      </ButtonToolbar>
     );
   };

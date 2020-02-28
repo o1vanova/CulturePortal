@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-//import { Colors } from '../../components/style/colors/colors';
-import { Buttons } from '../../components/style/buttons/buttons';
-// import { Checkboxs } from '../../components/style/checkbox/checkbox';
+import { Colors } from '../../components/style/colors/Colors';
+import { Buttons } from '../../components/style/buttons/Buttons';
+import { CheckBoxs } from '../../components/style/checkBox/CheckBox';
+import { Typography } from '../../components/style/typography/Typography';
 // import { Inputs } from '../../components/style/inputs/inputs';
 import './StyleGuide.scss';
 
@@ -17,6 +18,21 @@ const StylePage = (): JSX.Element => {
         <Col>
           <Wrapper title="Button" code="<></>">
             <Buttons />
+          </Wrapper>
+        </Col>
+        <Col>
+          <Wrapper title="CheckBox" code="<></>">
+            <CheckBoxs />
+          </Wrapper>
+        </Col>
+        <Col>
+          <Wrapper title="Color" code="<></>">
+            <Colors />
+          </Wrapper>
+        </Col>
+        <Col>
+          <Wrapper title="Button" code="<></>">
+            <Typography />
           </Wrapper>
         </Col>
       </Row>
