@@ -14,7 +14,7 @@ interface MemberCardProps {
 
 const MemberCard = ({ member }: MemberCardProps): JSX.Element => {
   return (
-    <Card bg="dark" className="Member-card mt-3 mb-3 border-0 rounded-0">
+    <Card className="Member-card mt-3 mb-3">
       <Row className="text-center">
         <Col>
           <Image src={member.avatar} fluid />
@@ -24,7 +24,7 @@ const MemberCard = ({ member }: MemberCardProps): JSX.Element => {
         <Card.Title>{member.name}</Card.Title>
         <Card.Text>{member.contribution}</Card.Text>
       </Card.Body>
-      <Card.Footer>
+      <Card.Footer className="Member-card-footer">
         <a href={member.github}>
           <Icon className="Icon-member mr-1" width="32" icon={githubIcon} />
         </a>
