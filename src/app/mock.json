@@ -87,10 +87,119 @@
       "description": "data.architect2.description",
       "works": [
         {
-          "date": "",
-          "description": ""
+          "date": "1948 — 1950",
+          "description": "data.architect2.works.work1"
+        },
+        {
+          "date": "1954",
+          "description": "data.architect2.works.work2"
+        },
+        {
+          "date": "1954",
+          "description": "data.architect2.works.work3"
+        },
+        {
+          "date": "1954 — 1957",
+          "description": "data.architect2.works.work4"
+        },
+        {
+          "date": "1958",
+          "description": "data.architect2.works.work5"
+        },
+        {
+          "date": "1960",
+          "description": "data.architect2.works.work6"
+        },
+        {
+          "date": "—",
+          "description": "data.architect2.works.work7"
+        },
+        {
+          "date": "1966",
+          "description": "data.architect2.works.work8"
+        },
+        {
+          "date": "1966",
+          "description": "data.architect2.works.work9"
+        },
+        {
+          "date": "1968",
+          "description": "data.architect2.works.work10"
+        },
+        {
+          "date": "1975",
+          "description": "data.architect2.works.work11"
+        },
+        {
+          "date": "—",
+          "description": "data.architect2.works.work12"
+        },
+        {
+          "date": "—",
+          "description": "data.architect2.works.work13"
+        },
+        {
+          "date": "—",
+          "description": "data.architect2.works.work14"
         }
-      ]
+      ],
+      "timeLines": [
+        {
+          "year": "1914",
+          "description": "data.architect2.timeLines.desc1"
+        },
+        {
+          "year": "1932",
+          "description": "data.architect2.timeLines.desc2"
+        },
+        {
+          "year": "1936",
+          "description": "data.architect2.timeLines.desc3"
+        },
+        {
+          "year": "1944",
+          "description": "data.architect2.timeLines.desc4"
+        },
+        {
+          "year": "1949",
+          "description": "data.architect2.timeLines.desc5"
+        }
+      ],
+      "images": [
+        {
+          "title": "data.architect2.images.img1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/%D0%A5%D1%83%D0%B4_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A0%D0%91.jpg"
+        },
+        {
+          "title": "data.architect2.images.img2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Minsk_Drama_Theatre.jpg/1024px-Minsk_Drama_Theatre.jpg"
+        },
+        {
+          "title": "data.architect2.images.img3",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kolas_str%2C_16.JPG/800px-Kolas_str%2C_16.JPG"
+        }
+      ],
+      "places": [
+        {
+          "lat": "53.8976",
+          "lng": "27.5606",
+          "title": "data.architect2.images.img1"
+        },
+        {
+          "lat": "53.89832",
+          "lng": "27.551",
+          "title": "data.architect2.images.img2"
+        },
+        {
+          "lat": "53.92065",
+          "lng": "27.59279",
+          "title": "data.architect2.images.img3"
+        }
+      ],
+      "video": {
+        "title": "data.architect2.images.img1",
+        "url": "https://www.youtube.com/watch?v=xAHdpEau-k0"
+      }
     },
     {
       "id": 3,
@@ -105,7 +214,7 @@
       },
       "images": [
         {
-          "title": "data.architect3.images.image1",
+          "title": "data.architect3.images.img1",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/%D0%97%D0%B0%D0%B1%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0.jpg/800px-%D0%97%D0%B0%D0%B1%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0.jpg"
         },
         {
@@ -263,8 +372,158 @@
       },
       "works": [
         {
-          "date": "",
-          "description": ""
+          "date": "1927",
+          "description": "data.architect5.works.work1"
+        },
+        {
+          "date": "1930",
+          "description": "data.architect5.works.work2"
+        },
+        {
+          "date": "1929",
+          "description": "data.architect5.works.work3"
+        },
+        {
+          "date": "1932",
+          "description": "data.architect5.works.work4"
+        },
+        {
+          "date": "1934 — 1939",
+          "description": "data.architect5.works.work5"
+        },
+        {
+          "date": "1937 — 1938",
+          "description": "data.architect5.works.work6"
+        },
+        {
+          "date": "1936",
+          "description": "data.architect5.works.work7"
+        },
+        {
+          "date": "1938 — 1939",
+          "description": "data.architect5.works.work8"
+        },
+        {
+          "date": "1935 — 1939",
+          "description": "data.architect5.works.work9"
+        },
+        {
+          "date": "1950",
+          "description": "data.architect5.works.work10"
+        },
+        {
+          "date": "—",
+          "description": "data.architect5.works.work11"
+        },
+        {
+          "date": "—",
+          "description": "data.architect5.works.work12"
+        },
+        {
+          "date": "—",
+          "description": "data.architect5.works.work13"
+        },
+        {
+          "date": "1939",
+          "description": "data.architect5.works.work14"
+        },
+        {
+          "date": "1938",
+          "description": "data.architect5.works.work15"
+        }
+      ],
+      "images": [
+        {
+          "title": "data.architect5.images.img1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Foreign_Ministery.jpg/800px-Foreign_Ministery.jpg"
+        },
+        {
+          "title": "data.architect5.images.img2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Belarus-Minsk-Army_Palace_and_Tank_Monument.jpg/800px-Belarus-Minsk-Army_Palace_and_Tank_Monument.jpg"
+        },
+        {
+          "title": "data.architect5.images.img3",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mahilyow1.JPG/800px-Mahilyow1.JPG"
+        },
+        {
+          "title": "data.architect5.images.img4",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Belarus-Minsk-House_of_Government_and_Vladimir_Lenin_Monument-1.jpg/1024px-Belarus-Minsk-House_of_Government_and_Vladimir_Lenin_Monument-1.jpg"
+        },
+        {
+          "title": "data.architect5.images.img5",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Belarus-Minsk-Academy_of_Sciences-2.jpg/800px-Belarus-Minsk-Academy_of_Sciences-2.jpg"
+        },
+        {
+          "title": "data.architect5.images.img6",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Belarus-Minsk-Army_Palace_and_Tank_Monument-2.jpg/1024px-Belarus-Minsk-Army_Palace_and_Tank_Monument-2.jpg"
+        },
+        {
+          "title": "data.architect5.images.img4",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/House_of_Government_in_Minsk.jpg/800px-House_of_Government_in_Minsk.jpg"
+        },
+        {
+          "title": "data.architect5.images.img7",
+          "url": "https://upload.wikimedia.org/wikipedia/ru/a/a6/Theatre_opera%26ballet%2C_Minsk.jpg"
+        }
+      ],
+      "timeLines": [
+        {
+          "year": "1882",
+          "description": "data.architect5.timeLines.desc1"
+        },
+        {
+          "year": "1901 — 1906",
+          "description": "data.architect5.timeLines.desc2"
+        },
+        {
+          "year": "1907",
+          "description": "data.architect5.timeLines.desc3"
+        },
+        {
+          "year": "1914 — 1918",
+          "description": "data.architect5.timeLines.desc4"
+        },
+        {
+          "year": "1929",
+          "description": "data.architect5.timeLines.desc5"
+        },
+        {
+          "year": "1926 — 1927",
+          "description": "data.architect5.timeLines.desc6"
+        },
+        {
+          "year": "1930",
+          "description": "data.architect5.timeLines.desc7"
+        },
+        {
+          "year": "1937",
+          "description": "data.architect5.timeLines.desc8"
+        },
+        {
+          "year": "1949",
+          "description": "data.architect5.timeLines.desc9"
+        }
+      ],
+      "places": [
+        {
+          "lat": "53.8966",
+          "lng": "27.5644",
+          "title": "data.architect5.images.img2"
+        },
+        {
+          "lat": "53.89593",
+          "lng": "27.54477",
+          "title": "data.architect5.images.img4"
+        },
+        {
+          "lat": "53.9202",
+          "lng": "27.5983",
+          "title": "data.architect5.images.img5"
+        },
+        {
+          "lat": "53.9098",
+          "lng": "527.5614",
+          "title": "data.architect5.images.img7"
         }
       ]
     },

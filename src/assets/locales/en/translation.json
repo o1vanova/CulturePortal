@@ -13,7 +13,8 @@
   },
   "headers": {
     "aboutPortal": "Cultural portal about the architects of Belarus",
-    "architectDay": "Architect of the day"
+    "architectDay": "Architect of the day",
+    "aboutTeam": "The portal was made by a team of six developers"
   },
   "content": {
     "portalDescription": "Throughout its history, the Belarusian people have created a highly developed and original architecture. Preserved information about monuments of monumental, in particular, cult architecture of Belarus (materials about many of them are available in the Belarusian archives) testify to the skill of its creators, demonstrate the distinctive features of architectural and artistic trends and achievements of their era. They also reflect the features of the historical development of the Belarusian lands and speak about the tolerance of the Belarusian people and the diversity of religious denominations that existed simultaneously or at different periods on the territory of Belarus (paganism, Orthodoxy, Uniatism, Catholicism, Protestantism, Islam, Judaism). This portal is dedicated to outstanding architects of the Republic of Belarus.",
@@ -57,7 +58,35 @@
     "architect2": {
       "name": "Baklanov Mikhail Ivanovich",
       "cityBirth": "Ivanovka",
-      "description": "Belarusian Soviet architect. After graduating from the school of factory education, he worked as a draftsman at the Donetsk metallurgical plant. In 1932, M. Baklanov began studying at the Kharkiv architectural and construction technical school, after graduating from which in 1936 he entered the Kharkiv Institute of civil engineering (now the Kharkiv national University of construction and architecture). However, the study was not done. In December 1940, from the 4th year, he was drafted into the army, and soon he was sent to the 17th separate division of barrage balloons near Bialystok. At the beginning of the great Patriotic war, private Baklanov fought with the Nazis, but in July 1941 he was captured. Until 1943, he was in prison camps in Poland. In March, he fled and soon after joined the People's Avengers partisan brigade. For active participation in the battles with the invaders, he was awarded the medal \"partisan of the Patriotic war\" of the first degree. After the liberation of Belarus, Mikhail Baklanov was sent to work in August 1944 in the architectural and planning workshop Of the Department for architecture under the SNK of the BSSR (Belgosproject) in a workshop headed by Professor M. barsch. For 36 years, the architect's work history was associated with this Institute. Here he worked his way up from an ordinary architect to the head of an architectural design Studio."
+      "description": "Belarusian Soviet architect. After graduating from the school of factory education, he worked as a draftsman at the Donetsk metallurgical plant. In 1932, M. Baklanov began studying at the Kharkiv architectural and construction technical school, after graduating from which in 1936 he entered the Kharkiv Institute of civil engineering (now the Kharkiv national University of construction and architecture). However, the study was not done. In December 1940, from the 4th year, he was drafted into the army, and soon he was sent to the 17th separate division of barrage balloons near Bialystok. At the beginning of the great Patriotic war, private Baklanov fought with the Nazis, but in July 1941 he was captured. Until 1943, he was in prison camps in Poland. In March, he fled and soon after joined the People's Avengers partisan brigade. For active participation in the battles with the invaders, he was awarded the medal \"partisan of the Patriotic war\" of the first degree. After the liberation of Belarus, Mikhail Baklanov was sent to work in August 1944 in the architectural and planning workshop Of the Department for architecture under the SNK of the BSSR (Belgosproject) in a workshop headed by Professor M. barsch. For 36 years, the architect's work history was associated with this Institute. Here he worked his way up from an ordinary architect to the head of an architectural design Studio.",
+      "images": {
+        "img1": "National art Museum of the Republic of Belarus",
+        "img2": "National academic drama theater. M. Gorky",
+        "img3": "Library building of the Belarusian Polytechnic Institute (now the Belarusian national technical University)"
+      },
+      "works": {
+        "work1": "National academic drama theater. M. Gorky",
+        "work2": "Building of the Minsk regional statistical office",
+        "work3": "Building of the architectural and construction technical school",
+        "work4": "State art gallery of the BSSR (now the national art Museum of the Republic of Belarus)",
+        "work5": "Residential building on the corner of Zakharov and Pervomayskaya streets",
+        "work6": "Educational buildings of the Belarusian Institute of agricultural mechanization (now the Belarusian state agrarian technical University)",
+        "work7": "Library building of the Belarusian Polytechnic Institute (now the Belarusian national technical University)",
+        "work8": "Educational buildings of the medical Institute",
+        "work9": "Main building, Radiophysics and electronics building of the Belarusian State University (sovm. with A. G. Duhan)",
+        "work10": "The Main building of the tourist base on lake Naroch",
+        "work11": "Sosny recreation center Complex on Naroch lake",
+        "work12": "Pobeda Cinema on Mezhdunarodnaya street (sovm. with M. Barsch)",
+        "work13": "Monument to Yakub Kolas in der. Nikolaevschina Stolbtsy district, Minsk region",
+        "work14": "State cottages Of the office of the Council of Ministers of Belarus in Belovezhskaya Pushcha"
+      },
+      "timeLines": {
+        "desc1": "Was borned in the village Ivanovka",
+        "desc2": "Entered the Kharkiv architectural and construction College",
+        "desc3": "Entered the Kharkiv Institute of civil engineering",
+        "desc4": "He was sent to work in the architectural and planning workshop Of the Department of architecture at the SNK of the BSSR",
+        "desc5": "Received Its first major order-the development of the project of the building of the State art gallery of the BSSR"
+      }
     },
     "architect3": {
       "name": "Zaborsky Georgy Vladimirovich",
@@ -107,7 +136,44 @@
     "architect5": {
       "name": "Langbard Joseph Grigorievich",
       "cityBirth": "Belsk",
-      "description": "He is one of the outstanding architects of Europe of the XX century, whose artistic heritage has had a significant impact on the development of modern architecture. His architectural works greatly influenced the formation of the image of the city of Minsk and are examples of Belarusian architecture. According to professionals, Langbard was a proponent of critical assimilation and use of the traditions of the past. In the classics, he considered the architectural discipline, order, and commensurability of the main forms worthy, and sought to develop the simplicity and clarity of compositional solutions that are characteristic of the Belarusian national architecture. About the decoration of the architectural facade had the following opinion: \"it is better not to know how to decorate the building, than to make it unnecessary.\" 15 projects of the architect have been implemented, of which 8 are in Belarus."
+      "description": "He is one of the outstanding architects of Europe of the XX century, whose artistic heritage has had a significant impact on the development of modern architecture. His architectural works greatly influenced the formation of the image of the city of Minsk and are examples of Belarusian architecture. According to professionals, Langbard was a proponent of critical assimilation and use of the traditions of the past. In the classics, he considered the architectural discipline, order, and commensurability of the main forms worthy, and sought to develop the simplicity and clarity of compositional solutions that are characteristic of the Belarusian national architecture. About the decoration of the architectural facade had the following opinion: \"it is better not to know how to decorate the building, than to make it unnecessary.\" 15 projects of the architect have been implemented, of which 8 are in Belarus.",
+      "images": {
+        "img1": "Ministry of foreign Affairs, Kiev",
+        "img2": "House of officers, Minsk",
+        "img3": "Regional Executive Committee, Mogilev",
+        "img4": "Government House, Minsk",
+        "img5": "Academy of Sciences, Minsk",
+        "img6": "House of officers, Minsk",
+        "img7": "Opera and ballet Theater, Minsk"
+      },
+      "works": {
+        "work1": "Residential building for workers of the Red triangle plant on GAZ Ave. in Leningrad (competition)",
+        "work2": "The Complex of theater and cinema in Orsha",
+        "work3": "Government House of the Belarusian SSR in Minsk (all-Union competition in 1929; 1st prize; employees: ya. m. Kovarsky, G. p. Lyubarsky; founded in 1929; 1934-1937.)",
+        "work4": "Monument to Chapaev (Samara); (together with the sculptor M. G. Manizer)",
+        "work5": "House of the red army in Minsk",
+        "work6": "State Opera and ballet theater of the Belarusian SSR in Minsk",
+        "work7": "Monument to Taras Shevchenko (together with sculptor M. G. Manizer) in Kharkiv, considered one of the best in Ukraine",
+        "work8": "House of Soviets in Mogilev",
+        "work9": "Main building Of the Academy of Sciences of the Belarusian SSR in Minsk",
+        "work10": "Pobeda cinema Project»",
+        "work11": "Zemskaya Pravda in Kostroma",
+        "work12": "Agricultural Museum in Petrograd",
+        "work13": "Miniature Theater in Petrograd",
+        "work14": "Building of the city Committee of the CPU in Kiev (now-the Ministry of foreign Affairs of Ukraine)",
+        "work15": "Yanka Kupala Theater in Minsk, reconstruction of the main facade"
+      },
+      "timeLines": {
+        "desc1": "Born in Belsk",
+        "desc2": "Entered the architectural Department of the Odessa art school",
+        "desc3": "Moved to St. Petersburg, where I successfully passed the exams to the Higher art school at the Imperial Academy of arts for the faculty of architecture",
+        "desc4": "At this time, under his leadership, the Zemstvo Council in Kostroma, the agricultural Museum and the miniature theater in Petrograd were built",
+        "desc5": "Won the all-Union competition for the best project Of the house of government of the Belarusian SSR",
+        "desc6": "Completed a competitive project of a three-hundred-apartment residential building for workers of the Red triangle plant in Leningrad",
+        "desc7": "Received the first large orders for construction in Belarus and Ukraine",
+        "desc8": "The architect's Work received international recognition when Joseph Langbard won the Grand Prix of the world exhibition in Paris",
+        "2019": "Was awarded the Soviet order of Honor for the reconstruction of Minsk and Gomel"
+      }
     },
     "architect6": {
       "name": "Levin Leonid Mendelevich",

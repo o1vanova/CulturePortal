@@ -1,6 +1,6 @@
 # WorkLog of the project
 
-_o1vanova_ (Total: 22h)
+_o1vanova_ (Total: 23h)
 
 | time spent | feature                                                             |
 | ---------- | ------------------------------------------------------------------- |
@@ -10,6 +10,7 @@ _o1vanova_ (Total: 22h)
 | 1h         | add gallery                                                         |
 | 10h        | implement store with hooks, put content in json                     |
 | 2h         | add animations, special effects                                     |
+| 1h         | fix bug: redirect on the author page took for a few seconds         |
 
 _katunya_ (Total: 7h)
 
@@ -35,19 +36,19 @@ _IlyaIvanchikov_ (Total: 14h)
 
 _stiff-github_ (Total: 17h)
 
-| time spent | feature                                                             |
-| ---------- | ------------------------------------------------------------------- |
-| 2h         | create BlockAuthorInfo and add its on AuthorPage                    |
-| 6h         | add component BlockAuthorTimeline                                   |
-| 3h         | add component for Architector work list                             |
-| 4h         | add component modal window for video author                         |
-| 2h         | add all components on AuthorPage                                    |
+| time spent | feature                                          |
+| ---------- | ------------------------------------------------ |
+| 2h         | create BlockAuthorInfo and add its on AuthorPage |
+| 6h         | add component BlockAuthorTimeline                |
+| 3h         | add component for Architector work list          |
+| 4h         | add component modal window for video author      |
+| 2h         | add all components on AuthorPage                 |
 
 _DmitryAstapenko_ (Total: 13h)
 
-| time spent | feature                                                             |
-| ---------- | ------------------------------------------------------------------- |
-| 2h         | add block architect of the day                                      |
-| 4h         | add member card component                                           |
-| 6h         | add page with team                                                  |
-| 1h         | fix styles of the team page                                         | 
+| time spent | feature                        |
+| ---------- | ------------------------------ |
+| 2h         | add block architect of the day |
+| 4h         | add member card component      |
+| 6h         | add page with team             |
+| 1h         | fix styles of the team page    |
