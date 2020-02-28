@@ -35,6 +35,7 @@ const AuthorBoardPage = (): JSX.Element => {
           <Search dataSearch={filterHandler} />
         </Row>
       </Container>
+      <hr className="my-3" />
       <Container>
         <Row className="row-custom-align">
           {searchAuthor.map((x, i) => (

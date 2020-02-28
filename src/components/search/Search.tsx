@@ -12,7 +12,7 @@ interface DataSearchArr {
 export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
   const { t } = useTranslation();
 
-  const styleInput = ['inputSearch'];
+  let styleInput = 'valid';
   const [disOn, setDisOn] = useState<boolean>(true);
   const [search, setSearch] = useState<string>('');
   const [length, setLength] = useState<number>(1);
@@ -60,11 +60,12 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
   };
 
   if (disOn) {
-    styleInput.push('completed');
+    styleInput = 'invalid';
   }
   return (
     <>
       <Col xs={12} sm={12} className="formCheck">
+      <hr className="my-1" />
         <Form.Group controlId="formBasicCheckbox" className="row formGroup">
           {check.map((item, i) => (
             <Fragment key={item.id}>
@@ -82,9 +83,10 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
       </Col>
       <Col xs={12} sm={4} className="justify-content-center row">
         <label className="labelLength">
-          {t('search.colSymbols')}
+          {t('search.colSymbols')}:  {length}
           <input
-            className="inputLength"
+            className="custom-range"
+            id="customRange"
             type="range"
             value={length}
             step={1}
@@ -92,20 +94,23 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
             max={10}
             onChange={changeLength}
           />
-          {length}
         </label>
       </Col>
       <Col xs={12} sm={8} className="justify-content-center row">
         <DebounceInput
-          className={styleInput.join(' ')}
-          id="dynamic-label-input"
+          className={`form-control is-${styleInput}`}
           placeholder={t('search.input')}
+          id="validationTooltip01"
           minLength={length}
           debounceTimeout={300}
           value={search}
           onChange={changeHandler}
           disabled={disOn}
+          required
         />
+        <div className={`${styleInput}-feedback`}>
+          Architect
+        </div>
       </Col>
     </>
   );
