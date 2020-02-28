@@ -31,3 +31,13 @@ _IlyaIvanchikov_ (Total: 14h)
 | ---------- | ---------------------|
 | 4h         | add header component |
 | 10h        | add search component |
+
+_stiff-github_ (Total: 17h)
+
+| time spent | feature                                                             |
+| ---------- | ------------------------------------------------------------------- |
+| 2h         | create BlockAuthorInfo and add its on AuthorPage                    |
+| 6h         | add component BlockAuthorTimeline                                   |
+| 3h         | add component for Architector work list                             |
+| 4h         | add component modal window for video author                         |
+| 2h         | add all components on AuthorPage                                    |
