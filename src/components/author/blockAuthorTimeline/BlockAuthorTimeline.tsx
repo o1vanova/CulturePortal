@@ -20,7 +20,7 @@ function BlockAuthorTimeline(props: TimelineProps): JSX.Element {
 
   return (
     <VerticalTimeline>
-      {mappedItems.map((val2: { year: any; description: string }, i: string | number | undefined) => (
+      {mappedItems.map((val2: { year: string; description: string }, i: string | number | undefined) => (
         <VerticalTimelineElement
           key={i}
           className="vertical-timeline-element--work"

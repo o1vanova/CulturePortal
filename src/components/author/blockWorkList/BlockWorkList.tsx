@@ -22,12 +22,12 @@ function BlockWorkList(props: WorksProps): JSX.Element {
       <Table className="table table-hover" striped bordered hover variant="secondary">
         <thead>
           <tr>
-            <th>Объекты и деятельность</th>
-            <th>Дата</th>
+            <th>{t('content.works')}</th>
+            <th>{t('content.date')}</th>
           </tr>
         </thead>
         <tbody>
-          {mappedItems.map((val: { description: any; date: React.ReactNode }, i: string | number | undefined) => (
+          {mappedItems.map((val: { description: string; date: string }, i: string | number | undefined) => (
             <tr key={i}>
               <td>{val.description}</td>
               <td>{val.date}</td>
