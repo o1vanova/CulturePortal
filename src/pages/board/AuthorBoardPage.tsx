@@ -30,7 +30,7 @@ const AuthorBoardPage = (): JSX.Element => {
 
   return (
     <Fragment>
-      <h2 className="text-center text-info">{t('search.typeSearch')}</h2>
+      <h2 className="text-center">{t('search.typeSearch')}</h2>
       <Container>
         <Row className="align-items-center justify-content-center search">
           <Search dataSearch={filterHandler} />
