@@ -17,7 +17,10 @@
   },
   "content": {
     "portalDescription": "Throughout its history, the Belarusian people have created a highly developed and original architecture. Preserved information about monuments of monumental, in particular, cult architecture of Belarus (materials about many of them are available in the Belarusian archives) testify to the skill of its creators, demonstrate the distinctive features of architectural and artistic trends and achievements of their era. They also reflect the features of the historical development of the Belarusian lands and speak about the tolerance of the Belarusian people and the diversity of religious denominations that existed simultaneously or at different periods on the territory of Belarus (paganism, Orthodoxy, Uniatism, Catholicism, Protestantism, Islam, Judaism). This portal is dedicated to outstanding architects of the Republic of Belarus.",
-    "notFound": "Not found"
+    "notFound": "Not found",
+    "watch": "Watch video",
+    "works": "Objects and activities",
+    "date": "Date"
   },
   "search": {
     "typeSearch": "Select the type of search",
@@ -45,7 +48,7 @@
       },
       "timeLines": {
         "desc1": "Graduated from the architectural faculty of the Leningrad Institute of municipal construction engineers",
-        "desc2": "the Architect moved to Minsk",
+        "desc2": "The Architect moved to Minsk",
         "desc3": "Candidate of architecture",
         "desc4": "Head of the Department",
         "desc5": "Professor"
@@ -59,12 +62,47 @@
     "architect3": {
       "name": "Zaborsky Georgy Vladimirovich",
       "cityBirth": "Minsk",
-      "description": "Georgy Zaborsky was born on November 11, 1909 in Minsk to Vladimir Georgievich Zaborsky, an accountant for the Moscow-Brest railway, and Elena Ivanovna Zaborskaya (Zegling). After graduating from high school in 1929, Zaborsky became a worker at the stadium. After working there for a year, he entered the Minsk vocational school of peasant refractory construction. The first practice in Zaborsky took place on the construction site of the government House building. Here he met the architect I. Langbard. After completing his studies, Georgy Zaborsky was sent to the all-Russian Academy of arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, and others. after graduating from the Academy of arts in 1939, Zaborsky went to Moscow for a competition, but worked there for a short time and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesie regions. In the same year, he participated in the national competition for the best monument design for the city of Bialystok in honor of the reunification of Western Belarus. His project was recognized as the best, but the construction was prevented by the Great Patriotic war. After the war, he returned to Belarus and actively participated in the revival of destroyed cities and villages. From 1945 to 1964, Georgy Zaborsky directed the architectural and design workshops of the design institutes Belgosproekt and minskproekt, and at the same time taught at the architectural Department of the Belarusian Polytechnic Institute (now the Belarusian national technical University). He is actively involved in the development of planning and development projects in Minsk, Polotsk, and Orsha. Georgy Zaborsky takes part in the design of Minsk squares: Lenin (Independence), Central (October), Round (victory). In March of 1964. at his own request, he moved to the design Institute of Belgiproselstroy. He made a great creative contribution to the creation of a modern image of the Belarusian village. The main projects of this time were the public center Myshkovychi village of Kirovsky district, the construction of the kolkhoz \"Red Shift\" Luban district, construction of the settlement of Vertelishki center of the collective farm \"Progress\" of the Grodno region, for which he received the State prize of the USSR in 1971. He finished his practical creative activity in the early 1990s. one of his last works was the project of a monument to the victims of mass repressions in Kurapaty near Minsk."
+      "description": "Georgy Zaborsky was born on November 11, 1909 in Minsk to Vladimir Georgievich Zaborsky, an accountant for the Moscow-Brest railway, and Elena Ivanovna Zaborskaya (Zegling). After graduating from high school in 1929, Zaborsky became a worker at the stadium. After working there for a year, he entered the Minsk vocational school of peasant refractory construction. The first practice in Zaborsky took place on the construction site of the government House building. Here he met the architect I. Langbard. After completing his studies, Georgy Zaborsky was sent to the all-Russian Academy of arts. His teachers were such famous masters as A. Belogrud, I. Langbard, O. Munz, A. Nikolsky, and others. after graduating from the Academy of arts in 1939, Zaborsky went to Moscow for a competition, but worked there for a short time and quickly received a referral to Minsk. Here he was appointed head of a scientific expedition to study the monuments of architecture and art of the Gomel and Polesie regions. In the same year, he participated in the national competition for the best monument design for the city of Bialystok in honor of the reunification of Western Belarus. His project was recognized as the best, but the construction was prevented by the Great Patriotic war. After the war, he returned to Belarus and actively participated in the revival of destroyed cities and villages. From 1945 to 1964, Georgy Zaborsky directed the architectural and design workshops of the design institutes Belgosproekt and minskproekt, and at the same time taught at the architectural Department of the Belarusian Polytechnic Institute (now the Belarusian national technical University). He is actively involved in the development of planning and development projects in Minsk, Polotsk, and Orsha. Georgy Zaborsky takes part in the design of Minsk squares: Lenin (Independence), Central (October), Round (victory). In March of 1964. at his own request, he moved to the design Institute of Belgiproselstroy. He made a great creative contribution to the creation of a modern image of the Belarusian village. The main projects of this time were the public center Myshkovychi village of Kirovsky district, the construction of the kolkhoz \"Red Shift\" Luban district, construction of the settlement of Vertelishki center of the collective farm \"Progress\" of the Grodno region, for which he received the State prize of the USSR in 1971. He finished his practical creative activity in the early 1990s. one of his last works was the project of a monument to the victims of mass repressions in Kurapaty near Minsk.",
+      "images": {
+        "image1": "The plaque on the house at 19-21 Independence Avenue"
+      },
+      "works": {
+        "work1": "Public center of Myshkovichi village of Kirovsky district",
+        "work2": "Construction of the collective farm \"Red Shift\" lubansky district",
+        "work3": "Development of the village of Vertelishki-the center of the collective farm \"Progress\" of the Grodno region",
+        "work4": "Project of a monument to victims of mass repressions in Kurapaty near Minsk"
+      },
+      "timeLines": {
+        "desc1": "Directs the architectural and design workshops of the design institutes Belgosproekt and minskproekt",
+        "desc2": "Design of residential buildings on Lenin street in Minsk",
+        "desc3": "Designed a house for the family of Ya. Kolas",
+        "desc4": "Monument-monument on Victory square",
+        "desc5": "Moved to the design Institute of Belgiproselstroy"
+      }
     },
     "architect4": {
       "name": "Karako Victor Ivanovich",
       "cityBirth": "Grodno",
-      "description": "Viktor Ivanovich Karako was born on July 29, 1948 in Grodno, Byelorussian SSR. In 1966-1972, he studied at the Department of architecture of the Belarusian Polytechnic Institute. Since 1975, member of the Belarusian Union of architects. In 1972-1976 and 1982-1998, he worked as an architect, senior architect, chief project architect, and workshop Manager at Belgosproject. In 1976-1982, head of the group of architects, chief architect of projects, head of the belniipgradostroitelstva workshop. In 1982, he was awarded the Lenin Komsomol of Belarus prize in architecture for the project of the youth Palace in Minsk. Navapolatsk. Since 1998, he has headed his own creative workshop. Since 2003, he has been teaching design at the architectural faculty of the Belarusian national technical University. Since 2005, he has been a member of the Board of the Belarusian Union of architects, Chairman of the BSE city organization, and a member of the city's Monumental and decorative Council."
+      "description": "Viktor Ivanovich Karako was born on July 29, 1948 in Grodno, Byelorussian SSR. In 1966-1972, he studied at the Department of architecture of the Belarusian Polytechnic Institute. Since 1975, member of the Belarusian Union of architects. In 1972-1976 and 1982-1998, he worked as an architect, senior architect, chief project architect, and workshop Manager at Belgosproject. In 1976-1982, head of the group of architects, chief architect of projects, head of the belniipgradostroitelstva workshop. In 1982, he was awarded the Lenin Komsomol of Belarus prize in architecture for the project of the youth Palace in Minsk. Navapolatsk. Since 1998, he has headed his own creative workshop. Since 2003, he has been teaching design at the architectural faculty of the Belarusian national technical University. Since 2005, he has been a member of the Board of the Belarusian Union of architects, Chairman of the BSE city organization, and a member of the city's Monumental and decorative Council.",
+      "images": {
+        "img1": "Reconstruction of school 4 in Minsk",
+        "img2": "Reconstruction of the Bank building on Zaslavskaya street, 10",
+        "img3": "Youth center in Novopolotsk",
+        "img4": "Pantheon of partisan glory",
+        "img5": "Opera house in Plovdiv",
+        "img6": "Judge's house on the Borovaya racing ring"
+      },
+      "works": {
+        "work1": "KGB and Council of Ministers Dispensary on lake Vyacha",
+        "work2": "Building of the Ministry of internal Affairs on opanski street in Minsk"
+      },
+      "timeLines": {
+        "desc1": "Graduated at the Department of architecture of the Belarusian Polytechnic Institute",
+        "desc2": "Member of the Belarusian Union of architects",
+        "desc3": "Head of the group of architects, chief architect of projects, head of the workshop",
+        "desc4": "Became the winner of the Lenin Komsomol of Belarus award in the field of architecture for the project of the youth Palace in Novopolotsk",
+        "desc5": "Created my own workshop, which is engaged in the design and construction of architectural objects of various sizes and purposes"
+      }
     },
     "architect5": {
       "name": "Langbard Joseph Grigorievich",
@@ -74,12 +112,61 @@
     "architect6": {
       "name": "Levin Leonid Mendelevich",
       "cityBirth": "Minsk",
-      "description": "Honored architect of Belarus (1988), winner of the Lenin prize (1970), and the State prize of Belarus (2003). Graduated from BPI in 1960. Worked at the design Institute \"minskproekt\" (1960-1998), since 1998 – head of the creative workshop. Major works (with co-authors.): memorial complex \"“Khatyn\" (1968), pavilion of VDNH of Belarus (1968), building of the city Committee of the CPB (1979), metro stations \"Lenin Square\" (1984) and \"Nemiga\" (1990); project of detailed planning and development of the center (1970-1975), Masherov Avenue (1980), reconstruction and improvement of the Trinity suburb (1980-1986) in Minsk; “Stalag 342” in Molodechno (1990); monuments of Y. Kupala and Y. Kolas (1972), victims of the Minsk ghetto on the square Anniversary (1998-2000) in Minsk to Prince David in David-Gorodok (2000), children who died in the great Patriotic war and the Chernobyl disaster in D. Krasnyy Bereg Zhlobin district (2006); the victims of the Holocaust in Gorodeya Nesvizhsky R-on (2004).Performed the set design of the performances \"Flights with an angel\" (2001) and “war Song” (co-author., 2005) at the Republican theatre of Belarusian drama. Author of the book \"Khatyn\" (2005)."
+      "description": "Honored architect of Belarus (1988), winner of the Lenin prize (1970), and the State prize of Belarus (2003). Graduated from BPI in 1960. Worked at the design Institute \"minskproekt\" (1960-1998), since 1998 – head of the creative workshop. Major works (with co-authors.): memorial complex \"“Khatyn\" (1968), pavilion of VDNH of Belarus (1968), building of the city Committee of the CPB (1979), metro stations \"Lenin Square\" (1984) and \"Nemiga\" (1990); project of detailed planning and development of the center (1970-1975), Masherov Avenue (1980), reconstruction and improvement of the Trinity suburb (1980-1986) in Minsk; “Stalag 342” in Molodechno (1990); monuments of Y. Kupala and Y. Kolas (1972), victims of the Minsk ghetto on the square Anniversary (1998-2000) in Minsk to Prince David in David-Gorodok (2000), children who died in the great Patriotic war and the Chernobyl disaster in D. Krasnyy Bereg Zhlobin district (2006); the victims of the Holocaust in Gorodeya Nesvizhsky R-on (2004).Performed the set design of the performances \"Flights with an angel\" (2001) and “war Song” (co-author., 2005) at the Republican theatre of Belarusian drama. Author of the book \"Khatyn\" (2005).",
+      "works": {
+        "work1": "Memorial ensemble \"Khatyn\"",
+        "work2": "Yama Memorial complex (the territory of the former Minsk ghetto)",
+        "work3": "Children who died in the great Patriotic war (on the site of a children's concentration camp) and from the Chernobyl disaster (Krasniy Bereg, Zhlobinsky district)",
+        "work4": "Memorial complex for ghetto prisoners in Slutsk",
+        "work5": "Memorial complex for the lost Jews of Gorodeya",
+        "work6": "Shunevka (memorial complex \"Curse of fascism\")",
+        "work7": "Memorial complex \"Breakthrough\" near the village of Ushachi, ushachsky district, Vitebsk region",
+        "work8": "Monument to Belarusian partisans (\"Breakthrough\")",
+        "work9": "Monument to Yanka Kupala",
+        "work10": "Monument to Yakub Kolas",
+        "work11": "Monument to Prince David in David-Gorodok",
+        "work12": "Monument to the victims of the Minsk ghetto",
+        "work13": "Gorkom PBC",
+        "work14": "VDNH",
+        "work15": "Author of the Minsk metro station \"Lenin Square\"",
+        "work16": "Authorship of the Minsk metro station \"Nemiga\"",
+        "work17": "Project of detailed planning and development of the center",
+        "work18": "Participation in the creation of the Park. 50th anniversary of Soviet power",
+        "work19": "Historical \"Nemiga\" (authorship of the reconstruction of the historical part of Minsk)",
+        "work20": "\"Trinity suburb\"",
+        "work21": "\"Upper town\"",
+        "work22": "\"Rakovskoe suburb\"",
+        "work23": "\"Stalag-342\"",
+        "work24": "Artist Mark Chagall's quarter in Vitebsk"
+      },
+      "timeLines": {
+        "desc1": "Graduated at the Belarusian Polytechnic Institute",
+        "desc2": "Work at the minskproject Institute (from architect to head of the Minsk center development Workshop)",
+        "desc3": "Participation in the creation of the Park. 50th anniversary of Soviet power",
+        "desc4": "Participation in the creation of the exhibition pavilion of VDNKH BSSR in Minsk",
+        "desc5": "As part of the author's team, he was awarded the Lenin prize for the memorial complex of 1968-1969 \"Khatyn\"",
+        "desc6": "Director of the up's own creative workshop \"Creative workshop of architect L. Levin\""
+      }
     },
     "architect7": {
       "name": "Shpit Yuri Vasilyevich",
       "cityBirth": "Zaporozhye",
-      "description": "Yuri Shpit was born on November 9, 1930 in Zaporozhye. In 1954, he graduated from the architectural faculty of the Kiev Institute of civil engineering, after which he left for Minsk and began working in the workshop of the Institute \"Belgosproekt\". During the years of his work at this Institute, he went from senior architect to head of an architectural design workshop. He was the author of a number of typical projects of residential buildings made of silicate blocks that were being built in Minsk. Personally designed the development of the quarter at the intersection of Leninsky Prospekt and Kozlov street, residential and public complexes of buildings on Tolbukhin street, the Partizan cinema, the Yunost hotel, a number of other houses in Minsk, the Victory monument on Victory square in Vitebsk, the Belarus sanatorium in Mishor. In 1964-1975, Shpit served as Deputy Chairman of the state construction Committee of the Belarusian SSR, and in 1970-1973, he headed the Union of architects of the Belarusian SSR. In parallel with his main work, he taught at the architectural faculty of the Belarusian Polytechnic Institute. In 1968, Shpit was awarded the title of honored architect of the Belarusian SSR. Since 1975, Shpit has led the Belarusian state research and design Institute of urban planning. He made a great contribution to the development of Novopolotsk and Bobruisk, for which he was awarded The state prize of the Belarusian SSR. Participated in international meetings and sessions on urban planning and construction. He died in 2010 and is buried in the Eastern cemetery of Minsk. He was awarded the order \"Badge of Honor\", a number of medals and certificates of Honor."
+      "description": "Yuri Shpit was born on November 9, 1930 in Zaporozhye. In 1954, he graduated from the architectural faculty of the Kiev Institute of civil engineering, after which he left for Minsk and began working in the workshop of the Institute \"Belgosproekt\". During the years of his work at this Institute, he went from senior architect to head of an architectural design workshop. He was the author of a number of typical projects of residential buildings made of silicate blocks that were being built in Minsk. Personally designed the development of the quarter at the intersection of Leninsky Prospekt and Kozlov street, residential and public complexes of buildings on Tolbukhin street, the Partizan cinema, the Yunost hotel, a number of other houses in Minsk, the Victory monument on Victory square in Vitebsk, the Belarus sanatorium in Mishor. In 1964-1975, Shpit served as Deputy Chairman of the state construction Committee of the Belarusian SSR, and in 1970-1973, he headed the Union of architects of the Belarusian SSR. In parallel with his main work, he taught at the architectural faculty of the Belarusian Polytechnic Institute. In 1968, Shpit was awarded the title of honored architect of the Belarusian SSR. Since 1975, Shpit has led the Belarusian state research and design Institute of urban planning. He made a great contribution to the development of Novopolotsk and Bobruisk, for which he was awarded The state prize of the Belarusian SSR. Participated in international meetings and sessions on urban planning and construction. He died in 2010 and is buried in the Eastern cemetery of Minsk. He was awarded the order \"Badge of Honor\", a number of medals and certificates of Honor.",
+      "works": {
+        "work1": "Number of typical projects of residential buildings made of silicate blocks that were built in Minsk",
+        "work2": "Building a block at the intersection of Leninsky Prospekt and Kozlov street",
+        "work3": "Residential and public complexes of buildings on Tolbukhina street",
+        "work4": "Cinema \"Partizan\"",
+        "work5": "Yunost Hotel",
+        "work6": "Health Resort Belarus in Mishor"
+      },
+      "timeLines": {
+        "desc1": "Graduated from the architectural faculty of the Kiev Institute of civil engineering",
+        "desc2": "Held the position of Deputy Chairman of Gosstroy of the Belarusian SSR",
+        "desc3": "Led the Union of architects of the Belarusian SSR",
+        "desc4": "Awarded the title of honored architect of the Belarusian SSR",
+        "desc5": "Headed the Belarusian state research and design Institute of urban development"
+      }
     }
   }
 }

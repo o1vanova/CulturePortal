@@ -103,10 +103,61 @@
         "title": "",
         "url": "https://www.youtube.com/watch?v=MqltS2dlhR4"
       },
+      "images": [
+        {
+          "title": "data.architect3.images.image1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/%D0%97%D0%B0%D0%B1%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0.jpg/800px-%D0%97%D0%B0%D0%B1%D0%BE%D1%80%D1%81%D0%BA%D0%B8%D0%B9%2C_%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0.jpg"
+        },
+        {
+          "title": "data.architect3.timeLines.desc4",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/736822177106_0_BG.jpg"
+        }
+      ],
       "works": [
         {
-          "date": "",
-          "description": ""
+          "date": "—",
+          "description": "data.architect3.works.work1"
+        },
+        {
+          "date": "—",
+          "description": "data.architect3.works.work2"
+        },
+        {
+          "date": "—",
+          "description": "data.architect3.works.work3"
+        },
+        {
+          "date": "—",
+          "description": "data.architect3.works.work4"
+        }
+      ],
+      "timeLines": [
+        {
+          "year": "1945 — 1964",
+          "description": "data.architect3.timeLines.desc1"
+        },
+        {
+          "year": "1950",
+          "description": "data.architect3.timeLines.desc2"
+        },
+        {
+          "year": "1952",
+          "description": "data.architect3.timeLines.desc3"
+        },
+        {
+          "year": "1954",
+          "description": "data.architect3.timeLines.desc4"
+        },
+        {
+          "year": "1964",
+          "description": "data.architect3.timeLines.desc5"
+        }
+      ],
+      "places": [
+        {
+          "lat": "53.893009",
+          "lng": "27.567444",
+          "title": "data.architect3.cityBirth"
         }
       ]
     },
@@ -119,8 +170,83 @@
       "description": "data.architect4.description",
       "works": [
         {
-          "date": "",
-          "description": ""
+          "date": "—",
+          "description": "data.architect4.images.img6"
+        },
+        {
+          "date": "—",
+          "description": "data.architect4.images.img3"
+        },
+        {
+          "date": "—",
+          "description": "data.architect4.images.img1"
+        },
+        {
+          "date": "—",
+          "description": "data.architect4.works.work1"
+        },
+        {
+          "date": "—",
+          "description": "data.architect4.works.work2"
+        }
+      ],
+      "images": [
+        {
+          "title": "data.architect4.images.img1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/School_4_Minsk.jpg"
+        },
+        {
+          "title": "data.architect4.images.img2",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg/1024px-%D0%91%D0%95%D0%9B%D0%92%D0%AD%D0%91.jpg"
+        },
+        {
+          "title": "data.architect4.images.img3",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/DK_Novopolotsk.jpg"
+        },
+        {
+          "title": "data.architect4.images.img3",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dk_lobby_novopolotsk.jpg"
+        },
+        {
+          "title": "data.architect4.images.img4",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/%D0%9F%D0%9F%D0%A1_317.jpg/800px-%D0%9F%D0%9F%D0%A1_317.jpg"
+        },
+        {
+          "title": "data.architect4.images.img5",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/%D0%9E_398.jpg/800px-%D0%9E_398.jpg"
+        },
+        {
+          "title": "data.architect4.images.img6",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%D0%A1%D1%83%D0%B4%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA.jpg/800px-%D0%A1%D1%83%D0%B4%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%BE%D0%BC%D0%B8%D0%BA.jpg"
+        }
+      ],
+      "timeLines": [
+        {
+          "year": "1966 — 1972",
+          "description": "data.architect4.timeLines.desc1"
+        },
+        {
+          "year": "1975",
+          "description": "data.architect4.timeLines.desc2"
+        },
+        {
+          "year": "1976 — 1982",
+          "description": "data.architect4.timeLines.desc3"
+        },
+        {
+          "year": "1982",
+          "description": "data.architect4.timeLines.desc4"
+        },
+        {
+          "year": "1984",
+          "description": "data.architect4.timeLines.desc5"
+        }
+      ],
+      "places": [
+        {
+          "lat": "53.6608",
+          "lng": "23.8166",
+          "title": "data.architect4.cityBirth"
         }
       ]
     },
@@ -153,10 +279,163 @@
         "title": "",
         "url": "https://www.youtube.com/watch?v=3QJXk6dIpKQ"
       },
+      "images": [
+        {
+          "title": "data.architect6.works.work1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Khatyn_Memorial%2C_Belarus.jpg/1024px-Khatyn_Memorial%2C_Belarus.jpg"
+        },
+        {
+          "title": "data.architect6.works.work20",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Traeckaje_suburb-3.jpg/250px-Traeckaje_suburb-3.jpg"
+        },
+        {
+          "title": "data.architect6.works.work19",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Niamiha_street_%28Minsk%29_p07.jpg/1024px-Niamiha_street_%28Minsk%29_p07.jpg"
+        },
+        {
+          "title": "data.architect6.works.work15",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Lenpl_03.jpg/250px-Lenpl_03.jpg"
+        }
+      ],
       "works": [
         {
-          "date": "",
-          "description": ""
+          "date": "1969",
+          "description": "data.architect6.works.work1"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work2"
+        },
+        {
+          "date": "2006",
+          "description": "data.architect6.works.work3"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work4"
+        },
+        {
+          "date": "2004",
+          "description": "data.architect6.works.work5"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work6"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work7"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work8"
+        },
+        {
+          "date": "1972",
+          "description": "data.architect6.works.work9"
+        },
+        {
+          "date": "1972",
+          "description": "data.architect6.works.work10"
+        },
+        {
+          "date": "2000",
+          "description": "data.architect6.works.work11"
+        },
+        {
+          "date": "1998 — 2000",
+          "description": "data.architect6.works.work12"
+        },
+        {
+          "date": "1979",
+          "description": "data.architect6.works.work13"
+        },
+        {
+          "date": "1968",
+          "description": "data.architect6.works.work14"
+        },
+        {
+          "date": "1984",
+          "description": "data.architect6.works.work15"
+        },
+        {
+          "date": "1990",
+          "description": "data.architect6.works.work16"
+        },
+        {
+          "date": "1970 — 1975",
+          "description": "data.architect6.works.work17"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work18"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work19"
+        },
+        {
+          "date": "1980 — 1986",
+          "description": "data.architect6.works.work20"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work21"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work22"
+        },
+        {
+          "date": "1990",
+          "description": "data.architect6.works.work23"
+        },
+        {
+          "date": "—",
+          "description": "data.architect6.works.work24"
+        }
+      ],
+      "timeLines": [
+        {
+          "year": "1954 — 1960",
+          "description": "data.architect6.timeLines.desc1"
+        },
+        {
+          "year": " 1960",
+          "description": "data.architect6.timeLines.desc2"
+        },
+        {
+          "year": "1960 — 1967",
+          "description": "data.architect6.timeLines.desc3"
+        },
+        {
+          "year": "1968",
+          "description": "data.architect6.timeLines.desc4"
+        },
+        {
+          "year": "1970",
+          "description": "data.architect6.timeLines.desc5"
+        },
+        {
+          "year": "1997",
+          "description": "data.architect6.timeLines.desc6"
+        }
+      ],
+      "places": [
+        {
+          "lat": "54.3354",
+          "lng": "27.9408",
+          "title": "data.architect6.works.work1"
+        },
+        {
+          "lat": "53.89158",
+          "lng": "27.54797",
+          "title": "data.architect6.works.work15"
+        },
+        {
+          "lat": "53.9028",
+          "lng": "27.5561",
+          "title": "data.architect6.works.work20"
         }
       ]
     },
@@ -167,13 +446,71 @@
       "timeLife": "1930 - 2010",
       "imgSrc": "/images/Shpit.jpg",
       "description": "data.architect7.description",
-      "works": [
+      "images": [
         {
-          "date": "",
-          "description": ""
+          "title": "data.architect7.works.work6",
+          "url": "https://avatars.mds.yandex.net/get-altay/1633254/2a000001675c1fa1a23749204928c085929c/XXXL"
+        },
+        {
+          "title": "data.architect7.works.work6",
+          "url": "https://avatars.mds.yandex.net/get-altay/1245631/2a000001675c1fa99a8305bf43e0081912d3/XXXL"
         }
       ],
-      "video": ""
+      "works": [
+        {
+          "date": "—",
+          "description": "data.architect7.works.work1"
+        },
+        {
+          "date": "—",
+          "description": "data.architect7.works.work2"
+        },
+        {
+          "date": "—",
+          "description": "data.architect7.works.work3"
+        },
+        {
+          "date": "—",
+          "description": "data.architect7.works.work4"
+        },
+        {
+          "date": "—",
+          "description": "data.architect7.works.work5"
+        },
+        {
+          "date": "—",
+          "description": "data.architect7.works.work6"
+        }
+      ],
+      "timeLines": [
+        {
+          "year": "1954",
+          "description": "data.architect7.timeLines.desc1"
+        },
+        {
+          "year": " 1964 — 1975",
+          "description": "data.architect7.timeLines.desc2"
+        },
+        {
+          "year": "1970 — 1973",
+          "description": "data.architect7.timeLines.desc3"
+        },
+        {
+          "year": "1968",
+          "description": "data.architect7.timeLines.desc4"
+        },
+        {
+          "year": "1975",
+          "description": "data.architect7.timeLines.desc5"
+        }
+      ],
+      "places": [
+        {
+          "lat": "44.428018",
+          "lng": "34.076701",
+          "title": "data.architect7.works.work6"
+        }
+      ]
     }
   ],
   "members": [
