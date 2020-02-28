@@ -93,7 +93,7 @@ const AuthorPage = (): JSX.Element => {
       />
       <Row className="justify-content-center mt-5">
         <Button variant="secondary" onClick={handleClickVideo} size="lg">
-          Смотреть видео
+          {t('content.watch')}
         </Button>
       </Row>
 

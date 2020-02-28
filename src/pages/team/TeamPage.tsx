@@ -2,15 +2,17 @@ import React, { useContext } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import MemberCard from '../../components/memberCard/MemberCard';
 import StoreContext from '../../app/store';
+import { useTranslation } from 'react-i18next';
 
 const TeamPage = (): JSX.Element => {
   const { members } = useContext(StoreContext);
+  const { t } = useTranslation();
 
   return (
     <Container>
       <Row>
         <Col>
-          <h2 className="mt-3 text-center">The portal was made by a team of six developers</h2>
+          <h2 className="mt-3 text-center">{t('headers.aboutTeam')}</h2>
         </Col>
       </Row>
       <Row>
