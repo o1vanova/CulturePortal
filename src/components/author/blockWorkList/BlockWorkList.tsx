@@ -27,7 +27,7 @@ function BlockWorkList(props: WorksProps): JSX.Element {
           </tr>
         </thead>
         <tbody>
-          {mappedItems.map((val: { description: any; date: React.ReactNode }, i: string | number | undefined) => (
+          {mappedItems.map((val: { description: string; date: string }, i: string | number | undefined) => (
             <tr key={i}>
               <td>{val.description}</td>
               <td>{val.date}</td>
