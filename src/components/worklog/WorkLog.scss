@@ -1,0 +1,67 @@
+.worklog {
+
+  &__title {
+    position: relative;
+
+    margin-bottom: 20px;
+    padding: 20px 0;
+
+    color: $cyan;
+
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+
+      display: block;
+      width: 5%;
+      height: 5px;
+
+      border-radius: 10px;
+      background-color: $cyan;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-flow: wrap;
+  }
+
+  &__table {
+    color: $white;
+
+    width: 320px;
+    margin: 10px;
+  }
+
+  &__header th {
+    border: 1px solid #dee2e6;
+    text-align: center;
+  }
+
+  &__rows td:nth-child(1) {
+    text-align: center;
+  }
+
+  &__rows td {
+    border: 1px solid #dee2e6;
+  }
+
+  @media (max-width: 1024px) {
+    &__wrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  @media (max-width: 320px) {
+    &__table {
+      width: 290px;
+    }
+  }
+}
+
+
+
+
+
