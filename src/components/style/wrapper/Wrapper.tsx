@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { GoCode } from 'react-icons/go';
+import { Icon } from '@iconify/react';
+import baselineCode from '@iconify/icons-ic/baseline-code';
 import ModalCode from '../modalCode/ModalCode';
 import './Wrapper.scss';
 
@@ -16,7 +17,9 @@ const Wrapper = (props: { title: string; codeExample: string; children: React.Re
           <h2>{props.title}</h2>
         </Col>
         <Col className="text-right text-top">
-          <GoCode onClick={handleShow} className="wrapper-icon" size={40} />
+          <div className="wrapper-icon" onClick={handleShow}>
+            <Icon width="40" icon={baselineCode} />
+          </div>          
         </Col>
       </Row>
       <Row>

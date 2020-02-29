@@ -1,6 +1,7 @@
 import React from 'react';
 import { Modal, Row, Col } from 'react-bootstrap';
-import { MdClose } from 'react-icons/md';
+import { Icon } from '@iconify/react';
+import baselineClear from '@iconify/icons-ic/baseline-clear';
 import './ModalCode.scss';
 
 const ModalCode = (props: {
@@ -13,7 +14,9 @@ const ModalCode = (props: {
       <Modal.Header>
         <Row>
           <Col>
-            <MdClose onClick={props.onHide} className="modal-code-icon" size={24} />
+            <div onClick={props.onHide} className="modal-code-icon">
+              <Icon width="32" icon={baselineClear} />
+            </div>              
           </Col>
         </Row>
       </Modal.Header>

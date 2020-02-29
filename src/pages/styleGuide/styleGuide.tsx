@@ -8,7 +8,7 @@ import { Inputs } from '../../components/style/inputs/Inputs';
 import { Tables } from '../../components/style/tables/Tables';
 import Wrapper from '../../components/style/wrapper/Wrapper';
 import Cards from '../../components/style/cards/Cards';
-import codeExample from '../../constants/codeExample'
+import codeExample from '../../constants/codeExample';
 
 import './StyleGuide.scss';
 
