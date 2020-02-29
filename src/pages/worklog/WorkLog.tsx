@@ -1,17 +1,18 @@
 import React from 'react';
 import Evaluation from '../../components/worklog/Evaluation';
 import WorkLogTable from '../../components/worklog/WorkLogTable';
+import { Container } from 'react-bootstrap';
 
 const WorkLog = () => {
   return (
     <>
       <WorkLogTable />
-      <h2>Difficulties </h2>
-      <ul>
-        <li>Main 1-3 difficulties for the team during implementation</li>
-        <li>Main 1-3 difficulties for the team during implementation</li>
-        <li>Main 1-3 difficulties for the team during implementation</li>
-      </ul>
+      <Container>
+        <h2>Difficulties</h2>
+        <ul>
+          <li>Main difficulty for the team during implementation was making the merge code.</li>
+        </ul>
+      </Container>
       <Evaluation />
     </>
   );

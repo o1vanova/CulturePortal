@@ -8,14 +8,16 @@ import { Inputs } from '../../components/style/inputs/Inputs';
 import { Tables } from '../../components/style/tables/Tables';
 import Wrapper from '../../components/style/wrapper/Wrapper';
 import Cards from '../../components/style/cards/Cards';
-import codeExample from '../../constants/codeExample'
+import codeExample from '../../constants/codeExample';
+import { useTranslation } from 'react-i18next';
 
 import './StyleGuide.scss';
 
 const StylePage = (): JSX.Element => {
+  const { t } = useTranslation();
   return (
     <Container className="page-styleGuide">
-      <h2 className="mt-3 text-center">Our styleGuide</h2>
+      <h2 className="mt-3 text-center">{t('menu.styleGuide')}</h2>
       <Wrapper title="Color" codeExample={codeExample.Colors}>
         <Colors />
       </Wrapper>

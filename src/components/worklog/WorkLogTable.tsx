@@ -1,17 +1,19 @@
 import React from 'react';
-import worklogData, { headersTable } from './worklogData';
+import data from './WorkLogData';
 import { Table, Container } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 import './WorkLog.scss';
 
 const WorkLogTable = () => {
-  const headerList = headersTable.map(header => {
+  const { t } = useTranslation();
+  const headerList = data.HeadersTable.map(header => {
     return <th key={header}>{header}</th>;
   });
   return (
     <>
-      <h1 className="worklog__title">Worklog</h1>
+      <h1 className="worklog__title">{t('menu.worklog')}</h1>
       <Container className="worklog__wrapper">
-        {worklogData.map(row => {
+        {data.WorkLogData.map(row => {
           return (
             <div key={row.id}>
               <h4>{`${row.name}`}</h4>
@@ -33,7 +35,7 @@ const WorkLogTable = () => {
             </div>
           );
         })}
-      </Container>{' '}
+      </Container>
     </>
   );
 };

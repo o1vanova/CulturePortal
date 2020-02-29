@@ -89,7 +89,7 @@ const evaluation: Evaluation[] = [
       {
         title: 'Confidence of the project presentation',
         score: 10,
-        done: false,
+        done: true,
       },
       {
         title: 'Project is made using gatsbyjs',
@@ -99,7 +99,7 @@ const evaluation: Evaluation[] = [
       {
         title: 'Contentful / netlify cms is used for content management',
         score: 10,
-        done: true,
+        done: false,
       },
       {
         title: 'Animations / special effects like paralax',

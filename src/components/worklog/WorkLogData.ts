@@ -1,9 +1,9 @@
 import { WorklogModel } from '../../model/worklog';
 
-const worklogData: WorklogModel[] = [
+const WorkLogData: WorklogModel[] = [
   {
     id: 1,
-    name: 'o1vanova',
+    name: 'o1vanova (Total: 23h)',
     done: [
       {
         id: 1,
@@ -27,19 +27,29 @@ const worklogData: WorklogModel[] = [
       },
       {
         id: 5,
+        hours: 10,
+        feature: 'implement store with hooks, put content in json',
+      },
+      {
+        id: 6,
         hours: 2,
         feature: 'add animations, special effects',
+      },
+      {
+        id: 7,
+        hours: 1,
+        feature: 'fix bug: redirect on the author page took for a few seconds',
       },
     ],
   },
   {
     id: 2,
-    name: 'katunya',
+    name: 'katunya (Total: 9h)',
     done: [
       {
         id: 1,
         hours: 3,
-        feature: 'add main page components ',
+        feature: 'add main page components',
       },
       {
         id: 2,
@@ -60,7 +70,7 @@ const worklogData: WorklogModel[] = [
   },
   {
     id: 3,
-    name: 'ildar',
+    name: 'ildar (Total: 15h)',
     done: [
       {
         id: 1,
@@ -76,7 +86,7 @@ const worklogData: WorklogModel[] = [
   },
   {
     id: 4,
-    name: 'IlyaIvanchikov',
+    name: 'IlyaIvanchikov (Total: 16h)',
     done: [
       {
         id: 1,
@@ -86,13 +96,18 @@ const worklogData: WorklogModel[] = [
       {
         id: 2,
         hours: 10,
-        feature: 'add search component ',
+        feature: 'add search component',
+      },
+      {
+        id: 3,
+        hours: 2,
+        feature: 'add styleGuide page 1/2',
       },
     ],
   },
   {
     id: 5,
-    name: 'stiff-github',
+    name: 'stiff-github (Total: 17h)',
     done: [
       {
         id: 1,
@@ -117,18 +132,18 @@ const worklogData: WorklogModel[] = [
       {
         id: 5,
         hours: 2,
-        feature: 'add all components on AuthorPage ',
+        feature: 'add all components on AuthorPage',
       },
     ],
   },
   {
     id: 6,
-    name: 'DmitryAstapenko',
+    name: 'DmitryAstapenko (Total: 17h)',
     done: [
       {
         id: 1,
         hours: 2,
-        feature: 'add block architect of the day  ',
+        feature: 'add block architect of the day',
       },
       {
         id: 2,
@@ -143,12 +158,17 @@ const worklogData: WorklogModel[] = [
       {
         id: 4,
         hours: 1,
-        feature: 'fix styles of the team page ',
+        feature: 'fix styles of the team page',
+      },
+      {
+        id: 5,
+        hours: 4,
+        feature: 'add styleGuide page 1/2',
       },
     ],
   },
 ];
 
-export const headersTable = ['Spend time', 'Features'];
+const HeadersTable = ['Spend time', 'Features'];
 
-export default worklogData;
+export default { WorkLogData, HeadersTable };

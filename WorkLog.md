@@ -12,13 +12,14 @@ _o1vanova_ (Total: 23h)
 | 2h         | add animations, special effects                                     |
 | 1h         | fix bug: redirect on the author page took for a few seconds         |
 
-_katunya_ (Total: 7h)
+_katunya_ (Total: 9h)
 
 | time spent | feature                        |
 | ---------- | ------------------------------ |
 | 3h         | add main page components       |
 | 1h         | add styles to the main page    |
 | 3h         | add page and component WorkLog |
+| 2h         | fix style of the worklog page  |
 
 _ildar_ (Total: 15h)
 
@@ -29,10 +30,10 @@ _ildar_ (Total: 15h)
 
 _IlyaIvanchikov_ (Total: 16h)
 
-| time spent | feature              |
-| ---------- | -------------------- |
-| 4h         | add header component |
-| 10h        | add search component |
+| time spent | feature                 |
+| ---------- | ----------------------- |
+| 4h         | add header component    |
+| 10h        | add search component    |
 | 2h         | add styleGuide page 1/2 |
 
 _stiff-github_ (Total: 17h)
@@ -47,10 +48,10 @@ _stiff-github_ (Total: 17h)
 
 _DmitryAstapenko_ (Total: 17h)
 
-| time spent | feature                       |
-| ---------- | ----------------------------- |
-| 2h         | add block architect of the day|
-| 4h         | add member card component     |
-| 6h         | add page with team            |
-| 1h         | fix styles of the team page   | 
-| 4h         | add styleGuide page  1/2      |
+| time spent | feature                        |
+| ---------- | ------------------------------ |
+| 2h         | add block architect of the day |
+| 4h         | add member card component      |
+| 6h         | add page with team             |
+| 1h         | fix styles of the team page    |
+| 4h         | add styleGuide page 1/2        |
