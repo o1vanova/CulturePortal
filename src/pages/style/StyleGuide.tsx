@@ -13,7 +13,7 @@ import { useTranslation } from 'react-i18next';
 
 import './StyleGuide.scss';
 
-const StylePage = (): JSX.Element => {
+const StyleGuide = (): JSX.Element => {
   const { t } = useTranslation();
   return (
     <Container className="page-styleGuide">
@@ -43,4 +43,4 @@ const StylePage = (): JSX.Element => {
   );
 };
 
-export default StylePage;
+export default StyleGuide;

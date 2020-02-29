@@ -120,4 +120,4 @@ const Typography = `<Fragment>
   <p className="h6">h6.Заголовок</p>
 </Fragment>`;
 
-export default { Buttons, Cards, CheckBox, Colors, Inputs, Tables, Typography};
+export default { Buttons, Cards, CheckBox, Colors, Inputs, Tables, Typography };
