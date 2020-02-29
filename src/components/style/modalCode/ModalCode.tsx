@@ -11,7 +11,7 @@ const ModalCode = (props: { show: boolean | undefined; onHide: (() => void) | un
           <Col><MdClose onClick={props.onHide} className="modal-code-icon" size={24}/></Col>
         </Row>
       </Modal.Header>
-      <Modal.Body>{props.codeExample}</Modal.Body>      
+      <Modal.Body><pre className="modal-code-pre">{props.codeExample}</pre></Modal.Body>      
     </Modal>
   );
 };
