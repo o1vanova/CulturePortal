@@ -1,6 +1,6 @@
 # WorkLog of the project
 
-_o1vanova_ (Total: 12h)
+_o1vanova_ (Total: 22h)
 
 | time spent | feature                                                             |
 | ---------- | ------------------------------------------------------------------- |
@@ -8,6 +8,7 @@ _o1vanova_ (Total: 12h)
 | 2h         | translation                                                         |
 | 1h         | fix styles of the main page to display on tablets and mobile phones |
 | 1h         | add gallery                                                         |
+| 10h        | implement store with hooks, put content in json                     |
 | 2h         | add animations, special effects                                     |
 
 _katunya_ (Total: 7h)
@@ -25,12 +26,13 @@ _ildar_ (Total: 15h)
 | 5h         | add cards for authors page                   |
 | 10h        | add map for author page with style and marks |
 
-_IlyaIvanchikov_ (Total: 14h)
+_IlyaIvanchikov_ (Total: 16h)
 
 | time spent | feature              |
-| ---------- | ---------------------|
+| ---------- | -------------------- |
 | 4h         | add header component |
 | 10h        | add search component |
+| 2h         | add styleGuide page 1/2 |
 
 _stiff-github_ (Total: 17h)
 
@@ -42,11 +44,12 @@ _stiff-github_ (Total: 17h)
 | 4h         | add component modal window for video author                         |
 | 2h         | add all components on AuthorPage                                    |
 
-_DmitryAstapenko_ (Total: 13h)
+_DmitryAstapenko_ (Total: 17h)
 
-| time spent | feature                                                             |
-| ---------- | ------------------------------------------------------------------- |
-| 2h         | add block architect of the day                                      |
-| 4h         | add member card component                                           |
-| 6h         | add page with team                                                  |
-| 1h         | fix styles of the team page                                         | 
+| time spent | feature                       |
+| ---------- | ----------------------------- |
+| 2h         | add block architect of the day|
+| 4h         | add member card component     |
+| 6h         | add page with team            |
+| 1h         | fix styles of the team page   | 
+| 4h         | add styleGuide page  1/2      |

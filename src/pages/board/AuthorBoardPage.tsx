@@ -13,7 +13,6 @@ const AuthorBoardPage = (): JSX.Element => {
   const [searchAuthor, setSearchAuthor] = useState<Author[]>(architects);
 
   const filterHandler = (search: string, id: number) => {
-    console.log(id);
     setSearchAuthor(
       architects.filter(author => {
         const name = t(author.name).toLowerCase();
@@ -30,12 +29,13 @@ const AuthorBoardPage = (): JSX.Element => {
 
   return (
     <Fragment>
-      <h2 className="text-center text-info">{t('search.typeSearch')}</h2>
       <Container>
         <Row className="align-items-center justify-content-center search">
+          <h2 className="text-center searchH2">{t('search.typeSearch')}</h2>
           <Search dataSearch={filterHandler} />
         </Row>
       </Container>
+      <hr className="my-3" />
       <Container>
         <Row className="row-custom-align">
           {searchAuthor.map((x, i) => (
