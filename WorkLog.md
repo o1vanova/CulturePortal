@@ -47,7 +47,6 @@ _stiff-github_ (Total: 17h)
 
 _DmitryAstapenko_ (Total: 17h)
 
-<<<<<<< HEAD
 | time spent | feature                       |
 | ---------- | ----------------------------- |
 | 2h         | add block architect of the day|
@@ -55,11 +54,3 @@ _DmitryAstapenko_ (Total: 17h)
 | 6h         | add page with team            |
 | 1h         | fix styles of the team page   | 
 | 4h         | add styleGuide page  1/2      |
-=======
-| time spent | feature                        |
-| ---------- | ------------------------------ |
-| 2h         | add block architect of the day |
-| 4h         | add member card component      |
-| 6h         | add page with team             |
-| 1h         | fix styles of the team page    |
->>>>>>> develop
