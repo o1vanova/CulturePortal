@@ -5,6 +5,7 @@ import { Buttons } from '../../components/style/buttons/Buttons';
 import { CheckBoxs } from '../../components/style/checkBox/CheckBox';
 import { Typography } from '../../components/style/typography/Typography';
 import { Inputs } from '../../components/style/inputs/Inputs';
+import { Tables } from '../../components/style/tables/Tables';
 import './StyleGuide.scss';
 
 import Wrapper from '../../components/style/wrapper/Wrapper';
@@ -28,6 +29,9 @@ const StylePage = (): JSX.Element => {
         </Wrapper>
         <Wrapper title="Inputs" codeExample="<></>">
           <Inputs />
+        </Wrapper>
+        <Wrapper title="Inputs" codeExample="<></>">
+          <Tables />
         </Wrapper>
     </Container>
   );
