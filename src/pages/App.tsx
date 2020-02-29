@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 import routes from '../constants/routes';
 import Header from '../components/header/Header';
 import MainPage from '../pages/home/MainPage';
-import StyleGuide from './styleGuide/StyleGuide';
+import StyleGuide from '../pages/style/StyleGuide';
 import AuthorBoardPage from '../pages/board/AuthorBoardPage';
 import AuthorPage from '../pages/author/AuthorPage';
 import TeamPage from '../pages/team/TeamPage';
