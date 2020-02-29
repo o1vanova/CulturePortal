@@ -21,7 +21,10 @@ const StylePage = (): JSX.Element => {
       <Wrapper title="Typography" codeExample="<></>">
         <Typography />
       </Wrapper>
-      <Wrapper title="Button" codeExample={`<Button>Secondary</Button>\n\t<Button>Secondary</Button>\n<Button>Secondary</Button>`}>
+      <Wrapper
+        title="Button"
+        codeExample={`<Button>Secondary</Button>\n\t<Button>Secondary</Button>\n<Button>Secondary</Button>`}
+      >
         <Buttons />
       </Wrapper>
       <Wrapper title="Inputs" codeExample="<></>">

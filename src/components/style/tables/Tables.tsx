@@ -2,32 +2,31 @@ import React from 'react';
 import { Table } from 'react-bootstrap';
 
 export const Tables = (): JSX.Element => {
-
-    const mappedItems = [
+  const mappedItems = [
     {
       description: 1,
-      date: 1991
+      date: 1991,
     },
     {
       description: 2,
-      date: 1992
+      date: 1992,
     },
     {
       description: 3,
-      date: 1993
+      date: 1993,
     },
     {
       description: 4,
-      date: 1994
+      date: 1994,
     },
     {
       description: 5,
-      date: 1995
+      date: 1995,
     },
   ];
 
-    return (
-      <>
+  return (
+    <>
       <Table className="table table-hover" striped bordered hover variant="secondary">
         <thead>
           <tr>
@@ -45,5 +44,5 @@ export const Tables = (): JSX.Element => {
         </tbody>
       </Table>
     </>
-    );
-  };
+  );
+};

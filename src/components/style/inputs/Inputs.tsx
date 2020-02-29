@@ -8,34 +8,30 @@ export const Inputs = (): JSX.Element => {
     setSearch(event.target.value);
   };
 
-    return (
-      <>
-        <DebounceInput
-          className="form-control is-valid"
-          placeholder="Enter please information"
-          id="validationTooltip01"
-          debounceTimeout={300}
-          minLength={1}
-          value={search}
-          onChange={changeHandler}
-          required
-        />
-        <div className="valid-feedback mb-2">
-          Input
-        </div>
-        <DebounceInput
-          className="form-control is-invalid"
-          placeholder="Enter please information"
-          id="validationTooltip01"
-          debounceTimeout={300}
-          minLength={1}
-          value={search}
-          onChange={changeHandler}
-          required
-        />
-        <div className="invalid-feedback">
-          Input
-        </div>
-      </>
-    );
-  };
+  return (
+    <>
+      <DebounceInput
+        className="form-control is-valid"
+        placeholder="Enter please information"
+        id="validationTooltip01"
+        debounceTimeout={300}
+        minLength={1}
+        value={search}
+        onChange={changeHandler}
+        required
+      />
+      <div className="valid-feedback mb-2">Input</div>
+      <DebounceInput
+        className="form-control is-invalid"
+        placeholder="Enter please information"
+        id="validationTooltip01"
+        debounceTimeout={300}
+        minLength={1}
+        value={search}
+        onChange={changeHandler}
+        required
+      />
+      <div className="invalid-feedback">Input</div>
+    </>
+  );
+};
