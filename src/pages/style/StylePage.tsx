@@ -11,9 +11,9 @@ import Cards from '../../components/style/cards/Cards';
 import codeExample from '../../constants/codeExample';
 import { useTranslation } from 'react-i18next';
 
-import './StyleGuide.scss';
+import './StylePage.scss';
 
-const StyleGuide = (): JSX.Element => {
+const StylePage = (): JSX.Element => {
   const { t } = useTranslation();
   return (
     <Container className="page-styleGuide">
@@ -43,4 +43,4 @@ const StyleGuide = (): JSX.Element => {
   );
 };
 
-export default StyleGuide;
+export default StylePage;
