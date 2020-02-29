@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Button } from 'react-bootstrap';
-import './colors.scss';
+import './Colors.scss';
 
 export const Colors = (): JSX.Element => {
   return (
