@@ -5,7 +5,7 @@ import './mainPages.scss';
 import AboutTheProject from '../../components/mainPage/AboutTheProject';
 import AuthorOfDay from '../../components/mainPage/AuthorOfDay';
 
-const MainPage = (): JSX.Element => {
+const StyleGuide = (): JSX.Element => {
   return (
     <Container className="page-main">
       <Row>
@@ -20,4 +20,4 @@ const MainPage = (): JSX.Element => {
   );
 };
 
-export default MainPage;
+export default StyleGuide;

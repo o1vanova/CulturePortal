@@ -1,5 +1,6 @@
 import React from 'react';
 import { Evaluation, EvaluationTask } from '../../model/evaluation';
+import { Container, Form } from 'react-bootstrap';
 
 const evaluation: Evaluation[] = [
   {
@@ -88,7 +89,7 @@ const evaluation: Evaluation[] = [
       {
         title: 'Confidence of the project presentation',
         score: 10,
-        done: false,
+        done: true,
       },
       {
         title: 'Project is made using gatsbyjs',
@@ -153,18 +154,13 @@ const getTask = (tasks: EvaluationTask[]) => {
       score += task.score;
     }
     element.push(
-      <div key={index}>
-        <div className="form-group">
-          {
-            <div className="custom-control custom-checkbox">
-              <input type="checkbox" className="custom-control-input" id="customCheck1" checked={task.done} />
-              <label className="custom-control-label" htmlFor="customCheck1">
-                {task.title}
-              </label>
-            </div>
-          }
-        </div>
-      </div>,
+      <Container key={index}>
+        {
+          <Form className="custom-control custom-checkbox">
+            <Form.Check type="checkbox" label={task.title} className="checkBox" checked={task.done} readOnly />
+          </Form>
+        }
+      </Container>,
     );
   });
   return {
@@ -178,21 +174,22 @@ const Evaluation = () => {
 
   const sections = evaluation.map((section: Evaluation, index: number) => {
     const tasks = getTask(section.tasks);
-
     score += tasks.score;
 
     return (
-      <section key={index}>
-        <h4 className="display-6">{section.title}</h4>
+      <Container key={index}>
+        <h4>{section.title}</h4>
         {tasks.element}
-      </section>
+      </Container>
     );
   });
 
   return (
-    <div>
-      {sections} <h2>Total score: {score}</h2>
-    </div>
+    <Container>
+      <h2>Self-evaluation</h2>
+      {sections}
+      <h2>Total score: {score}</h2>
+    </Container>
   );
 };
 

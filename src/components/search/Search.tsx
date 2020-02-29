@@ -65,7 +65,7 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
   return (
     <>
       <Col xs={12} sm={12} className="formCheck">
-      <hr className="my-1" />
+        <hr className="my-1" />
         <Form.Group controlId="formBasicCheckbox" className="row formGroup">
           {check.map((item, i) => (
             <Fragment key={item.id}>
@@ -83,7 +83,7 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
       </Col>
       <Col xs={12} sm={4} className="justify-content-center row">
         <label className="labelLength">
-          {t('search.colSymbols')}:  {length}
+          {t('search.colSymbols')}: {length}
           <input
             className="custom-range"
             id="customRange"
@@ -108,9 +108,7 @@ export const Search: React.FC<DataSearchArr> = (props: DataSearchArr) => {
           disabled={disOn}
           required
         />
-        <div className={`${styleInput}-feedback`}>
-          Architect
-        </div>
+        <div className={`${styleInput}-feedback`}>Architect</div>
       </Col>
     </>
   );
