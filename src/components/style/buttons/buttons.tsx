@@ -1,13 +1,13 @@
-import React from 'react';
-import { Button, ButtonToolbar } from 'react-bootstrap';
+import React, { Fragment } from 'react';
+import { Button } from 'react-bootstrap';
 import './Buttons.scss';
 
 export const Buttons = (): JSX.Element => {
     return (
-      <ButtonToolbar>
-        <Button variant="secondary" size="sm">Secondary</Button>
-        <Button variant="secondary">Secondary</Button>
-        <Button variant="secondary" size="lg">Secondary</Button>
-      </ButtonToolbar>
+      <Fragment>
+        <Button variant="secondary" size="sm">Small</Button>
+        <Button variant="secondary">Medium</Button>
+        <Button variant="secondary" size="lg">Large</Button>
+      </Fragment>
     );
   };
