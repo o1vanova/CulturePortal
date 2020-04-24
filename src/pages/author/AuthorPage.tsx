@@ -91,7 +91,7 @@ const AuthorPage = (): JSX.Element => {
         show={isShow}
         onHide={() => setIsShow(false)}
       />
-      <Row className="justify-content-center mt-5">
+      <Row className="justify-content-center mt-5" style={{'display': !architect || !architect.video?.url ? 'none' : 'flex'}}>
         <Button variant="secondary" onClick={handleClickVideo} size="lg">
           {t('content.watch')}
         </Button>
