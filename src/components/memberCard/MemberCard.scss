@@ -1,0 +1,20 @@
+.Member-card {  
+  height: 95%;  
+  background-color: #4E5D6C;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0px;
+  color: #EBEBEB;
+}
+
+.Member-card-footer {  
+  background-color: rgba(255, 255, 255, 0.075);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);  
+  border-radius: 0 !important;
+}
+
+.Icon-member {
+  color: #df691a;
+  &:hover {
+    color: #9f5a2d;  
+  }
+}
